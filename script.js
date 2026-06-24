@@ -4,8 +4,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
 
         const targetId = this.getAttribute('href');
-        if(targetId === '#') return;
-        
+        if (targetId === '#') return;
+
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
             targetElement.scrollIntoView({
@@ -16,34 +16,56 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form Submission Simulation
+// Google Sheets Web App URL (Replace this with your actual URL)
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwtRcKvKZYbfpsjNPFxr9P-f8E0zltAcAs6dCcCb6Qhi3h6OeZ9tPIqn8HLOtrhhR7w/exec';
 const purchaseForm = document.getElementById('purchase-form');
+
 if (purchaseForm) {
-    purchaseForm.addEventListener('submit', function(e) {
+    purchaseForm.addEventListener('submit', e => {
         e.preventDefault();
-        
-        const btn = this.querySelector('.submit-btn');
+
+        const btn = purchaseForm.querySelector('.submit-btn');
         const originalText = btn.innerHTML;
-        
+
         // Show loading state
         btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> جاري تأكيد الطلب...';
         btn.disabled = true;
-        
-        // Simulate API call
-        setTimeout(() => {
-            btn.innerHTML = '<i class="fa-solid fa-check"></i> تم تأكيد طلبك بنجاح!';
-            btn.style.background = 'linear-gradient(135deg, #27ae60, #2ecc71)';
-            
-            // Reset form
-            setTimeout(() => {
-                purchaseForm.reset();
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-                btn.style.background = '';
-                alert('شكراً لك! سيتم التواصل معك قريباً لتأكيد الطلب.');
-            }, 2000);
-            
-        }, 1500);
+
+        // Build URL-encoded data (more compatible with Google Apps Script)
+        const params = new URLSearchParams();
+        params.append('fullname', document.getElementById('fullname').value);
+        params.append('phone', document.getElementById('phone').value);
+        params.append('wilaya', document.getElementById('wilaya').options[document.getElementById('wilaya').selectedIndex].text);
+        params.append('baladiya', document.getElementById('baladiya').value);
+        params.append('model', document.getElementById('model-select').options[document.getElementById('model-select').selectedIndex].text);
+
+        fetch(scriptURL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: params.toString(),
+            mode: 'no-cors'
+        })
+            .then(() => {
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> تم تأكيد طلبك بنجاح!';
+                btn.style.background = 'linear-gradient(135deg, #27ae60, #2ecc71)';
+                setTimeout(() => {
+                    purchaseForm.reset();
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    btn.style.background = '';
+                    alert('شكراً لك! تم استلام طلبك وسيتم التواصل معك قريباً.');
+                }, 2000);
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                btn.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> حدث خطأ، يرجى المحاولة مرة أخرى';
+                btn.style.background = '#e74c3c';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    btn.style.background = '';
+                }, 3000);
+            });
     });
 }
 
@@ -83,14 +105,14 @@ document.head.insertAdjacentHTML('beforeend', `
 
 // Model Selection
 document.querySelectorAll('.select-model-btn').forEach(btn => {
-    btn.addEventListener('click', function(e) {
+    btn.addEventListener('click', function (e) {
         e.preventDefault();
         const model = this.getAttribute('data-model');
         const select = document.getElementById('model-select');
         if (select) {
             select.value = model;
         }
-        
+
         // Scroll to order form
         const orderForm = document.getElementById('order-form');
         if (orderForm) {
@@ -140,10 +162,175 @@ function startCountdown() {
 
         hoursEl.textContent = hours < 10 ? '0' + hours : hours;
         minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
-        secondsEl.textContent = seconds < 10 ? '0' + seconds : seconds;
+        secondsEl.textContent = seconds < 10 ? '0' + wseconds : seconds;
     }, 1000);
 }
 
 startCountdown();
 
-// End of script.js
+// =====================
+// Slideshow Logic
+// =====================
+const slides = document.querySelectorAll('.slide');
+const dotsWrapper = document.getElementById('slide-dots');
+let currentSlide = 0;
+let autoSlide;
+
+if (slides.length) {
+    // Create dots
+    slides.forEach((_, i) => {
+        const dot = document.createElement('button');
+        dot.classList.add('dot');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToSlide(i));
+        dotsWrapper.appendChild(dot);
+    });
+
+    function goToSlide(n) {
+        slides[currentSlide].classList.remove('active');
+        dotsWrapper.querySelectorAll('.dot')[currentSlide].classList.remove('active');
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].classList.add('active');
+        dotsWrapper.querySelectorAll('.dot')[currentSlide].classList.add('active');
+    }
+
+    document.getElementById('slide-prev').addEventListener('click', () => {
+        clearInterval(autoSlide);
+        goToSlide(currentSlide - 1);
+        autoSlide = setInterval(() => goToSlide(currentSlide + 1), 3500);
+    });
+
+    document.getElementById('slide-next').addEventListener('click', () => {
+        clearInterval(autoSlide);
+        goToSlide(currentSlide + 1);
+        autoSlide = setInterval(() => goToSlide(currentSlide + 1), 3500);
+    });
+
+    // Auto-advance every 3.5 seconds
+    autoSlide = setInterval(() => goToSlide(currentSlide + 1), 3500);
+}
+
+// =====================
+// Lightbox Logic
+// =====================
+const galleryImages = [
+    'photo_5856938776213524504_y.jpg',
+    'photo_5856938776213524505_y.jpg',
+    'photo_5856938776213524506_y.jpg',
+    'photo_5856938776213524507_y.jpg',
+    'photo_5856938776213524508_y.jpg',
+    'photo_5856938776213524509_y.jpg',
+    'photo_5856938776213524510_y.jpg',
+    'photo_5856938776213524511_y.jpg',
+    'photo_5856938776213524512_y.jpg',
+    'photo_5856938776213524513_y.jpg'
+];
+
+let currentLightboxIndex = 0;
+
+function openLightbox(index) {
+    currentLightboxIndex = index;
+    const lightbox = document.getElementById('lightbox');
+    document.getElementById('lightbox-img').src = galleryImages[index];
+    document.getElementById('lightbox-counter').textContent = (index + 1) + ' / ' + galleryImages.length;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+}
+
+function changeLightbox(direction) {
+    currentLightboxIndex = (currentLightboxIndex + direction + galleryImages.length) % galleryImages.length;
+    document.getElementById('lightbox-img').src = galleryImages[currentLightboxIndex];
+    document.getElementById('lightbox-counter').textContent = (currentLightboxIndex + 1) + ' / ' + galleryImages.length;
+}
+
+// Close lightbox with Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') changeLightbox(-1);
+    if (e.key === 'ArrowLeft') changeLightbox(1);
+});
+
+// =====================
+// Animated Number Counter
+// =====================
+function animateCounter(el, target, duration = 1800) {
+    let start = 0;
+    const step = target / (duration / 16);
+    const timer = setInterval(() => {
+        start += step;
+        if (start >= target) {
+            el.textContent = target.toLocaleString('ar-DZ');
+            clearInterval(timer);
+        } else {
+            el.textContent = Math.floor(start).toLocaleString('ar-DZ');
+        }
+    }, 16);
+}
+
+// Trigger counters when the bar is visible
+const proofBar = document.querySelector('.social-proof-bar');
+if (proofBar) {
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                document.querySelectorAll('.proof-number[data-target]').forEach(el => {
+                    animateCounter(el, parseInt(el.getAttribute('data-target')));
+                });
+                counterObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.3 });
+    counterObserver.observe(proofBar);
+}
+
+// =====================
+// Live Viewer Simulator
+// =====================
+const liveViewers = document.getElementById('live-viewers');
+if (liveViewers) {
+    setInterval(() => {
+        const current = parseInt(liveViewers.textContent) || 12;
+        const change = Math.random() > 0.5 ? 1 : -1;
+        const newCount = Math.max(8, Math.min(25, current + change));
+        liveViewers.textContent = newCount;
+    }, 4000);
+}
+
+// =====================
+// Order Toast Notifications
+// =====================
+const toastNames = ['فاطمة', 'سارة', 'أميرة', 'مريم', 'نور', 'ياسمين', 'إيمان', 'حنان', 'رنا', 'دنيا'];
+const toastCities = ['الجزائر', 'وهران', 'قسنطينة', 'سطيف', 'عنابة', 'تلمسان', 'بجاية', 'المدية', 'بسكرة', 'بليدة'];
+const toastMinutes = [2, 3, 5, 7, 8, 10, 12, 15];
+
+function showToast() {
+    const toast = document.getElementById('order-toast');
+    if (!toast) return;
+
+    const name = toastNames[Math.floor(Math.random() * toastNames.length)];
+    const city = toastCities[Math.floor(Math.random() * toastCities.length)];
+    const mins = toastMinutes[Math.floor(Math.random() * toastMinutes.length)];
+
+    document.getElementById('toast-name').textContent = name;
+    document.getElementById('toast-city').textContent = city;
+    toast.querySelector('span:last-child') && (toast.querySelector('.toast-body span').textContent = `طلبت هذا الطقم منذ ${mins} دقائق`);
+
+    toast.classList.remove('hide');
+    toast.classList.add('show');
+
+    setTimeout(() => {
+        toast.classList.remove('show');
+        toast.classList.add('hide');
+    }, 4000);
+}
+
+// Show first toast after 5s, then every 20-35s
+setTimeout(() => {
+    showToast();
+    setInterval(showToast, Math.random() * 15000 + 20000);
+}, 5000);

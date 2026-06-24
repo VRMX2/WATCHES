@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <div class="top-banner">
+        <i class="fa-solid fa-truck-fast"></i> توصيل سريع لجميع ولايات الجزائر - الدفع عند الاستلام
+    </div>
 
     <!-- Hero Section -->
     <header class="hero-section">
@@ -23,6 +27,13 @@
                 <div class="crown-icon"><i class="fa-solid fa-crown"></i></div>
                 <h1 class="main-title">ساعة <span>فاخرة</span><br>+ سوارين <span>أنيقين</span></h1>
                 <h2 class="sub-title">في علبة هدايا راقية</h2>
+
+                <div class="trust-stars">
+                    <div class="stars-icons">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(أكثر من 500 زبونة سعيدة)</span>
+                </div>
                 
                 <div class="price-container">
                     <div class="discount-badge">-20% تخفيض</div>
@@ -76,6 +87,45 @@
         </div>
     </header>
 
+    <!-- Social Proof Bar -->
+    <div class="social-proof-bar">
+        <div class="container">
+            <div class="proof-stats">
+                <div class="proof-item">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="proof-text">
+                        <span class="proof-number" data-target="247">0</span>
+                        <span class="proof-label">طلب تم اليوم</span>
+                    </div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="proof-text">
+                        <span class="proof-number" data-target="1843">0</span>
+                        <span class="proof-label">زبونة سعيدة</span>
+                    </div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item">
+                    <i class="fa-solid fa-star"></i>
+                    <div class="proof-text">
+                        <span class="proof-number">4.9</span>
+                        <span class="proof-label">تقييم عام</span>
+                    </div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item proof-live">
+                    <span class="live-dot"></span>
+                    <div class="proof-text">
+                        <span class="proof-number" id="live-viewers">12</span>
+                        <span class="proof-label">يتصفحن الآن</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Order Section -->
     <section class="order-section" id="order-form">
         <div class="container">
@@ -107,14 +157,14 @@
                             <label>الاسم الكامل</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-user"></i>
-                                <input type="text" placeholder="اكتبي اسمك الكامل" required>
+                                <input type="text" id="fullname" name="fullname" placeholder="اكتبي اسمك الكامل" required>
                             </div>
                         </div>
                         <div class="input-group">
                             <label>رقم الهاتف</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-phone"></i>
-                                <input type="tel" placeholder="اكتبي رقم هاتفك" required>
+                                <input type="tel" id="phone" name="phone" placeholder="اكتبي رقم هاتفك" required>
                             </div>
                         </div>
                     </div>
@@ -124,7 +174,7 @@
                             <label>الولاية</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <select required>
+                                <select id="wilaya" name="wilaya" required>
                                     <option value="" disabled selected>اختر ولايتك</option>
                                     <option value="1">1 - أدرار (Adrar)</option>
                                     <option value="2">2 - الشلف (Chlef)</option>
@@ -191,7 +241,7 @@
                             <label>البلدية</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-building"></i>
-                                <input type="text" placeholder="اختر بلديتك" required>
+                                <input type="text" id="baladiya" name="baladiya" placeholder="اكتبي بلديتك" required>
                             </div>
                         </div>
                     </div>
@@ -291,6 +341,60 @@
         </div>
     </section>
 
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="diamond">♦</span>
+                <h2>معرض الصور</h2>
+                <span class="diamond">♦</span>
+            </div>
+            <p class="gallery-subtitle">اضغطي على أي صورة لرؤيتها بشكل أكبر</p>
+
+            <!-- Slideshow -->
+            <div class="slideshow-wrapper">
+                <button class="slide-arrow slide-prev" id="slide-prev"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="slideshow-track" id="slideshow-track">
+                    <div class="slide active"><img src="photo_5856938776213524504_y.jpg" alt="صورة 1"></div>
+                    <div class="slide"><img src="photo_5856938776213524505_y.jpg" alt="صورة 2"></div>
+                    <div class="slide"><img src="photo_5856938776213524506_y.jpg" alt="صورة 3"></div>
+                    <div class="slide"><img src="photo_5856938776213524507_y.jpg" alt="صورة 4"></div>
+                    <div class="slide"><img src="photo_5856938776213524508_y.jpg" alt="صورة 5"></div>
+                    <div class="slide"><img src="photo_5856938776213524509_y.jpg" alt="صورة 6"></div>
+                    <div class="slide"><img src="photo_5856938776213524510_y.jpg" alt="صورة 7"></div>
+                    <div class="slide"><img src="photo_5856938776213524511_y.jpg" alt="صورة 8"></div>
+                    <div class="slide"><img src="photo_5856938776213524512_y.jpg" alt="صورة 9"></div>
+                    <div class="slide"><img src="photo_5856938776213524513_y.jpg" alt="صورة 10"></div>
+                </div>
+                <button class="slide-arrow slide-next" id="slide-next"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="slide-dots" id="slide-dots"></div>
+            </div>
+
+            <!-- Thumbnail Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(0)"><img src="photo_5856938776213524504_y.jpg" alt="صورة 1"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(1)"><img src="photo_5856938776213524505_y.jpg" alt="صورة 2"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(2)"><img src="photo_5856938776213524506_y.jpg" alt="صورة 3"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(3)"><img src="photo_5856938776213524507_y.jpg" alt="صورة 4"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(4)"><img src="photo_5856938776213524508_y.jpg" alt="صورة 5"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(5)"><img src="photo_5856938776213524509_y.jpg" alt="صورة 6"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(6)"><img src="photo_5856938776213524510_y.jpg" alt="صورة 7"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(7)"><img src="photo_5856938776213524511_y.jpg" alt="صورة 8"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(8)"><img src="photo_5856938776213524512_y.jpg" alt="صورة 9"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+                <div class="gallery-item" onclick="openLightbox(9)"><img src="photo_5856938776213524513_y.jpg" alt="صورة 10"><div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-prev" onclick="event.stopPropagation(); changeLightbox(-1)"><i class="fa-solid fa-chevron-right"></i></button>
+        <img id="lightbox-img" src="" alt="صورة مكبّرة">
+        <button class="lightbox-next" onclick="event.stopPropagation(); changeLightbox(1)"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-counter" id="lightbox-counter">1 / 10</div>
+    </div>
+
     <!-- Details Section -->
     <section class="details-section">
         <div class="container">
@@ -366,6 +470,51 @@
                 <div class="occasion-card">
                     <img src="photo_5856938776213524512_y.jpg" alt="عيد الميلاد" onerror="this.src='https://images.unsplash.com/photo-1558636508-e0db3814bd1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80';">
                     <div class="occ-label"><i class="fa-solid fa-cake-candles"></i> عيد الميلاد</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shipping & Delivery Section -->
+    <section class="shipping-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="diamond">♦</span>
+                <h2>معلومات الشحن والتوصيل</h2>
+                <span class="diamond">♦</span>
+            </div>
+            
+            <div class="shipping-grid">
+                <div class="shipping-card">
+                    <div class="shipping-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3>التوصيل لجميع الولايات (58 ولاية)</h3>
+                    <p>نوفر خدمة التوصيل السريع إلى باب منزلك أو إلى مكتب شركة التوصيل (Yalidine Express) في جميع ولايات الجزائر.</p>
+                </div>
+                
+                <div class="shipping-card">
+                    <div class="shipping-icon">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3>الدفع عند الاستلام</h3>
+                    <p>لا تدفع أي سنتيم حتى تستلم طلبيتك وتتأكد منها بنفسك. ثقتكم هي رأس مالنا.</p>
+                </div>
+
+                <div class="shipping-card">
+                    <div class="shipping-icon">
+                        <i class="fa-solid fa-stopwatch"></i>
+                    </div>
+                    <h3>مدة التوصيل</h3>
+                    <p>العاصمة والولايات المجاورة: 24 إلى 48 ساعة.<br>الولايات الأخرى: 2 إلى 4 أيام كحد أقصى.</p>
+                </div>
+                
+                <div class="shipping-card">
+                    <div class="shipping-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>ضمان الاستبدال</h3>
+                    <p>إذا وصلك المنتج فيه أي عيب أو لم يكن مطابقاً للصور، نضمن لك استبداله مجاناً وبدون أي تعقيدات.</p>
                 </div>
             </div>
         </div>
@@ -454,6 +603,15 @@
         <a href="#order-form" class="cta-btn">
             اطلبي الآن <i class="fa-solid fa-arrow-left"></i>
         </a>
+    </div>
+
+    <!-- Order Toast Notification -->
+    <div class="order-toast" id="order-toast">
+        <div class="toast-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+        <div class="toast-body">
+            <strong id="toast-name">فاطمة</strong> من <span id="toast-city">وهران</span>
+            <span>طلبت هذا الطقم منذ 5 دقائق</span>
+        </div>
     </div>
 
     <script src="script.js"></script>
