@@ -162,7 +162,7 @@ function startCountdown() {
 
         hoursEl.textContent = hours < 10 ? '0' + hours : hours;
         minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
-        secondsEl.textContent = seconds < 10 ? '0' + wseconds : seconds;
+        secondsEl.textContent = seconds < 10 ? '0' + seconds : seconds;
     }, 1000);
 }
 
@@ -300,37 +300,3 @@ if (liveViewers) {
         liveViewers.textContent = newCount;
     }, 4000);
 }
-
-// =====================
-// Order Toast Notifications
-// =====================
-const toastNames = ['فاطمة', 'سارة', 'أميرة', 'مريم', 'نور', 'ياسمين', 'إيمان', 'حنان', 'رنا', 'دنيا'];
-const toastCities = ['الجزائر', 'وهران', 'قسنطينة', 'سطيف', 'عنابة', 'تلمسان', 'بجاية', 'المدية', 'بسكرة', 'بليدة'];
-const toastMinutes = [2, 3, 5, 7, 8, 10, 12, 15];
-
-function showToast() {
-    const toast = document.getElementById('order-toast');
-    if (!toast) return;
-
-    const name = toastNames[Math.floor(Math.random() * toastNames.length)];
-    const city = toastCities[Math.floor(Math.random() * toastCities.length)];
-    const mins = toastMinutes[Math.floor(Math.random() * toastMinutes.length)];
-
-    document.getElementById('toast-name').textContent = name;
-    document.getElementById('toast-city').textContent = city;
-    toast.querySelector('span:last-child') && (toast.querySelector('.toast-body span').textContent = `طلبت هذا الطقم منذ ${mins} دقائق`);
-
-    toast.classList.remove('hide');
-    toast.classList.add('show');
-
-    setTimeout(() => {
-        toast.classList.remove('show');
-        toast.classList.add('hide');
-    }, 4000);
-}
-
-// Show first toast after 5s, then every 20-35s
-setTimeout(() => {
-    showToast();
-    setInterval(showToast, Math.random() * 15000 + 20000);
-}, 5000);
