@@ -130,43 +130,6 @@ document.querySelectorAll('.select-model-btn').forEach(btn => {
     });
 });
 
-// Countdown Timer Logic
-function startCountdown() {
-    let hours = 3;
-    let minutes = 45;
-    let seconds = 30;
-
-    const hoursEl = document.getElementById('hours');
-    const minutesEl = document.getElementById('minutes');
-    const secondsEl = document.getElementById('seconds');
-
-    if (!hoursEl || !minutesEl || !secondsEl) return;
-
-    const timer = setInterval(() => {
-        if (seconds > 0) {
-            seconds--;
-        } else {
-            if (minutes > 0) {
-                minutes--;
-                seconds = 59;
-            } else {
-                if (hours > 0) {
-                    hours--;
-                    minutes = 59;
-                    seconds = 59;
-                } else {
-                    clearInterval(timer);
-                }
-            }
-        }
-
-        hoursEl.textContent = hours < 10 ? '0' + hours : hours;
-        minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
-        secondsEl.textContent = seconds < 10 ? '0' + seconds : seconds;
-    }, 1000);
-}
-
-startCountdown();
 
 // =====================
 // Slideshow Logic

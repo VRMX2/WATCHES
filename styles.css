@@ -510,57 +510,6 @@ h1, h2, h3, h4, .main-title, .sub-title {
     font-size: 1.5rem;
 }
 
-.urgency-banner {
-    background: #fff3f3;
-    color: var(--primary-red);
-    padding: 10px;
-    border-radius: 8px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    border: 1px dashed var(--primary-red);
-    animation: pulse 1.5s infinite;
-}
-
-.countdown-wrapper {
-    background: #fdfbf7;
-    padding: 15px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-    border: 1px solid var(--border-color);
-}
-
-.countdown-wrapper p {
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: var(--gold-dark);
-}
-
-.countdown-timer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.time-box {
-    background: var(--primary-red);
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    min-width: 60px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: var(--shadow-sm);
-}
-
-.time-box small {
-    font-size: 0.8rem;
-    font-weight: normal;
-    opacity: 0.9;
-}
-
 .order-desc {
     color: #666;
     margin-bottom: 30px;
