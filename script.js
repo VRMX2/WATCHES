@@ -36,8 +36,25 @@ if (purchaseForm) {
         params.append('fullname', document.getElementById('fullname').value);
         params.append('phone', document.getElementById('phone').value);
         params.append('wilaya', document.getElementById('wilaya').options[document.getElementById('wilaya').selectedIndex].text);
-        params.append('baladiya', document.getElementById('baladiya').value);
-        params.append('model', document.getElementById('model-select').options[document.getElementById('model-select').selectedIndex].text);
+        
+        const baladiyaEl = document.getElementById('baladiya');
+        let baladiyaVal = baladiyaEl.value;
+        if (baladiyaEl.tagName === 'SELECT' && baladiyaEl.selectedIndex >= 0) {
+            baladiyaVal = baladiyaEl.options[baladiyaEl.selectedIndex].text;
+        }
+        params.append('baladiya', baladiyaVal);
+        
+        let offerSelectElem = document.getElementById('offer-select');
+        let offerText = offerSelectElem ? offerSelectElem.options[offerSelectElem.selectedIndex].text : '';
+        params.append('offer', offerText);
+        
+        let selectedModels = [];
+        document.querySelectorAll('.model-select').forEach((sel) => {
+            if (sel.closest('.input-group').style.display !== 'none' && sel.selectedIndex > 0) {
+                selectedModels.push(sel.options[sel.selectedIndex].text);
+            }
+        });
+        params.append('model', selectedModels.join(' + '));
 
         fetch(scriptURL, {
             method: 'POST',
@@ -108,7 +125,7 @@ document.querySelectorAll('.select-model-btn').forEach(btn => {
     btn.addEventListener('click', function (e) {
         e.preventDefault();
         const model = this.getAttribute('data-model');
-        const select = document.getElementById('model-select');
+        const select = document.getElementById('model-select-1');
         if (select) {
             select.value = model;
         }
@@ -262,4 +279,64 @@ if (liveViewers) {
         const newCount = Math.max(8, Math.min(25, current + change));
         liveViewers.textContent = newCount;
     }, 4000);
+}
+
+// =====================
+// Wilaya & Baladiya Logic
+// =====================
+const wilayaSelect = document.getElementById('wilaya');
+const baladiyaSelect = document.getElementById('baladiya');
+
+if (wilayaSelect && baladiyaSelect) {
+    wilayaSelect.addEventListener('change', function() {
+        const wId = this.value;
+        baladiyaSelect.innerHTML = '<option value="" disabled selected>اختر بلديتك</option>';
+        if (typeof baladiyaData !== 'undefined' && baladiyaData[wId]) {
+            baladiyaData[wId].forEach(bName => {
+                const option = document.createElement('option');
+                option.value = bName;
+                option.textContent = bName;
+                baladiyaSelect.appendChild(option);
+            });
+            baladiyaSelect.disabled = false;
+        } else {
+            baladiyaSelect.innerHTML = '<option value="" disabled selected>اختر الولاية أولاً</option>';
+            baladiyaSelect.disabled = true;
+        }
+    });
+}
+
+// =====================
+// Offer & Dynamic Models Logic
+// =====================
+const offerSelect = document.getElementById('offer-select');
+const extraModelsRow = document.getElementById('extra-models-row');
+const modelGroup2 = document.getElementById('model-group-2');
+const modelGroup3 = document.getElementById('model-group-3');
+const modelSelect2 = document.getElementById('model-select-2');
+const modelSelect3 = document.getElementById('model-select-3');
+
+if (offerSelect) {
+    offerSelect.addEventListener('change', function() {
+        const val = this.value;
+        if (val === "1") {
+            if (extraModelsRow) extraModelsRow.style.display = 'none';
+            if (modelGroup2) modelGroup2.style.display = 'none';
+            if (modelGroup3) modelGroup3.style.display = 'none';
+            if (modelSelect2) modelSelect2.required = false;
+            if (modelSelect3) modelSelect3.required = false;
+        } else if (val === "2") {
+            if (extraModelsRow) extraModelsRow.style.display = 'flex';
+            if (modelGroup2) modelGroup2.style.display = 'block';
+            if (modelGroup3) modelGroup3.style.display = 'none';
+            if (modelSelect2) modelSelect2.required = true;
+            if (modelSelect3) modelSelect3.required = false;
+        } else if (val === "3") {
+            if (extraModelsRow) extraModelsRow.style.display = 'flex';
+            if (modelGroup2) modelGroup2.style.display = 'block';
+            if (modelGroup3) modelGroup3.style.display = 'block';
+            if (modelSelect2) modelSelect2.required = true;
+            if (modelSelect3) modelSelect3.required = true;
+        }
+    });
 }

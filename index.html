@@ -228,18 +228,72 @@
                             <label>البلدية</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-building"></i>
-                                <input type="text" id="baladiya" name="baladiya" placeholder="اكتبي بلديتك" required>
+                                <select id="baladiya" name="baladiya" required disabled>
+                                    <option value="" disabled selected>اختر الولاية أولاً</option>
+                                </select>
                             </div>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="input-group">
-                            <label>الموديل المفضل</label>
+                            <label>العرض الخاص (الكمية)</label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-tag"></i>
+                                <select id="offer-select" name="offer" required>
+                                    <option value="1" selected>ساعة واحدة - 2300 د.ج</option>
+                                    <option value="2">عرض 2 ساعات - 4300 د.ج</option>
+                                    <option value="3">عرض 3 ساعات - 6500 د.ج</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group" id="model-group-1">
+                            <label>الموديل الأول</label>
                             <div class="input-wrapper">
                                 <i class="fa-solid fa-gem"></i>
-                                <select id="model-select" name="model" required>
-                                    <option value="" disabled selected>اختر الموديل الذي أعجبك</option>
+                                <select id="model-select-1" class="model-select" name="model1" required>
+                                    <option value="" disabled selected>اختر الموديل الأول</option>
+                                    <option value="model1">الموديل 1</option>
+                                    <option value="model2">الموديل 2</option>
+                                    <option value="model3">الموديل 3</option>
+                                    <option value="model4">الموديل 4</option>
+                                    <option value="model5">الموديل 5</option>
+                                    <option value="model6">الموديل 6</option>
+                                    <option value="model7">الموديل 7</option>
+                                    <option value="model8">الموديل 8</option>
+                                    <option value="model9">الموديل 9</option>
+                                    <option value="model10">الموديل 10</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row" id="extra-models-row" style="display: none;">
+                        <div class="input-group" id="model-group-2" style="display: none;">
+                            <label>الموديل الثاني</label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-gem"></i>
+                                <select id="model-select-2" class="model-select" name="model2">
+                                    <option value="" disabled selected>اختر الموديل الثاني</option>
+                                    <option value="model1">الموديل 1</option>
+                                    <option value="model2">الموديل 2</option>
+                                    <option value="model3">الموديل 3</option>
+                                    <option value="model4">الموديل 4</option>
+                                    <option value="model5">الموديل 5</option>
+                                    <option value="model6">الموديل 6</option>
+                                    <option value="model7">الموديل 7</option>
+                                    <option value="model8">الموديل 8</option>
+                                    <option value="model9">الموديل 9</option>
+                                    <option value="model10">الموديل 10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group" id="model-group-3" style="display: none;">
+                            <label>الموديل الثالث</label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-gem"></i>
+                                <select id="model-select-3" class="model-select" name="model3">
+                                    <option value="" disabled selected>اختر الموديل الثالث</option>
                                     <option value="model1">الموديل 1</option>
                                     <option value="model2">الموديل 2</option>
                                     <option value="model3">الموديل 3</option>
@@ -591,7 +645,7 @@
             اطلبي الآن <i class="fa-solid fa-arrow-left"></i>
         </a>
     </div>
-
+    <script src="baladiya.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

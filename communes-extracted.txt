@@ -1,0 +1,1541 @@
+﻿DZ.BC.AB|Abadla|BC
+DZ.TM.AB|Abalissa|TM
+DZ.BT.AA|Abdelkader Azil|BT
+DZ.TO.AU|Abi Youcef|TO
+DZ.CH.AH|Abou El Hassen|CH
+DZ.MG.AC|Achaacha|MG
+DZ.BJ.AD|Adekar|BJ
+DZ.AR.AD|Adrar|AR
+DZ.BM.AF|Aafir|BM
+DZ.LG.AF|Aflou|LG
+DZ.TP.AG|Aghbal|TP
+DZ.BU.AG|Aghbalou|BU
+DZ.AT.AG|Aghlal|AT
+DZ.TO.AG|Agouni Gueghrane|TO
+DZ.TO.AR|Aghrib|TO
+DZ.BU.AK|Ahl El Ksar|BU
+DZ.ML.AR|Ahmed Rachedi|ML
+DZ.TP.AA|Ahmar El Ain|TP
+DZ.BU.AF|Ahnif|BU
+DZ.SF.AB|Aïn Abessa|SF
+DZ.CO.AA|Aïn Abid|CO
+DZ.SB.AA|Aïn Adden|SB
+DZ.SF.AA|Aïn Arnat|SF
+DZ.SF.AZ|Aïn Azel|SF
+DZ.OB.AC|Aïn Babouche|OB
+DZ.OB.AB|Aïn Beida|OB
+DZ.OG.AB|Aïn Beida|OG
+DZ.ML.AB|Aïn Beida Harriche|ML
+DZ.GL.AB|Aïn Ben Beida|GL
+DZ.AD.AN|Ain Benian|AD
+DZ.AL.AB|Ain Benian|AL
+DZ.NA.AB|Aïn Ben Khelil|NA
+DZ.BU.AB|Aïn Bessem|BU
+DZ.TR.AB|Aïn Bouchekif|TR
+DZ.MD.AB|Aïn Boucif|MD
+DZ.MG.AB|Aïn Boudinar|MG
+DZ.AD.AB|Aïn Bouihi|AD
+DZ.SK.AB|Aïn Bouziane|SK
+DZ.OR.AB|Aïn Bya|OR
+DZ.SK.AC|Aïn Charchar|SK
+DZ.DJ.AC|Aïn Chouhada|DJ
+DZ.AD.AD|Aïn Defla|AD
+DZ.TR.AD|Aïn Deheb|TR
+DZ.BT.AD|Aïn Djasser|BT
+DZ.AT.AA|Aïn El Arbaa|AT
+DZ.ET.AA|Aïn El Assel|ET
+DZ.SB.AB|Aïn El Berd|SB
+DZ.AN.AB|Aïn El Berda|AN
+DZ.OB.AD|Aïn El Diss|OB
+DZ.OB.AF|Aïn El Fakroun|OB
+DZ.TR.AH|Aïn El Hadid|TR
+DZ.BU.AH|Aïn El Hadjar|BU
+DZ.SD.AH|Aïn El Hadjar|SD
+DZ.MS.AH|Aïn El Hadjel|MS
+DZ.TO.AE|Aïn El Hammam|TO
+DZ.DJ.AI|Aïn El Ibel|DJ
+DZ.SF.AK|Aïn El Kebira|SF
+DZ.OB.AK|Aïn El Kercha|OB
+DZ.MS.AM|Aïn El Melh|MS
+DZ.EB.AO|Aïn El Orak|EB
+DZ.MS.AR|Aïn Errich|MS
+DZ.MC.AF|Ain Fares|MC
+DZ.MS.AF|Ain Fares|MS
+DZ.MC.AK|Aïn Fekan|MC
+DZ.DJ.AF|Aïn Fekka|DJ
+DZ.MC.AR|Aïn Ferah|MC
+DZ.TL.AH|Aïn Fettah|TL
+DZ.TL.AF|Aïn Fezza|TL
+DZ.MC.AS|Aïn Frass|MC
+DZ.TL.AG|Aïn Ghoraba|TL
+DZ.GL.AH|Aïn Hassainia|GL
+DZ.SB.AK|Aïn Kada|SB
+DZ.TL.AK|Aïn Kebira|TL
+DZ.SK.AK|Aïn Kechra|SK
+DZ.ET.AK|Aïn Kerma|ET
+DZ.OR.AK|Aïn Kerma|OR
+DZ.TR.AK|Aïn Kermes|TR
+DZ.MS.AK|Aïn Khadra|MS
+DZ.AT.AK|Aïn Kihel|AT
+DZ.SF.AJ|Aïn Lahdjar|SF
+DZ.BU.AL|Aïn Laloui|BU
+DZ.GL.AL|Aïn Larbi|GL
+DZ.AD.AL|Aïn Lechiakh|AD
+DZ.SF.AL|Aïn Legraj|SF
+DZ.DJ.AM|Aïn Maabed|DJ
+DZ.LG.AM|Aïn Madhi|LG
+DZ.GL.AM|Aïn Makhlouf|GL
+DZ.ML.AM|Aïn Mellouk|ML
+DZ.CH.AM|Aïn Merane|CH
+DZ.OB.AM|Aïn M'lila|OB
+DZ.BS.AN|Aïn Naga|BS
+DZ.TL.AN|Aïn Nehala|TL
+DZ.MG.AN|Aïn Nouïssy|MG
+DZ.MD.AO|Aïn Ou Ksir|MD
+DZ.SF.AO|Aïn Oulmene|SF
+DZ.DJ.AO|Aïn Oussera|DJ
+DZ.RE.AR|Aïn Rahma|RE
+DZ.GL.AR|Aïn Reggada|GL
+DZ.BL.AR|Aïn Romana|BL
+DZ.SF.AR|Aïn Roua|SF
+DZ.GL.AS|Aïn Sandel|GL
+DZ.SF.AS|Aïn Sebt|SF
+DZ.NA.AS|Aïn Séfra|NA
+DZ.SD.AK|Aïn Sekhouna|SD
+DZ.LG.AS|Aïn Sidi Ali|LG
+DZ.MG.AS|Aïn Sidi Chérif|MG
+DZ.CO.AS|Aïn Smara|CO
+DZ.AD.AS|Aïn Soltane|AD
+DZ.SA.AS|Aïn Soltane|SA
+DZ.SD.AS|Aïn Soltane|SD
+DZ.BB.AG|Aïn Taghrout|BB
+DZ.TP.AT|Aïn Tagourait|TP
+DZ.TL.AT|Aïn Tallout|TL
+DZ.RE.AT|Aïn Tarik|RE
+DZ.AL.AT|Aïn Taya|AL
+DZ.MG.AT|Aïn Tedles|MG
+DZ.AT.AT|Aïn Témouchent|AT
+DZ.BB.AT|Aïn Tesra|BB
+DZ.SB.AH|Aïn Thrid|SB
+DZ.SB.AN|Aïn Tindamine|SB
+DZ.ML.AT|Aïn Tine|ML
+DZ.AT.AB|Aïn Tolba|AT
+DZ.AD.AT|Aïn Torki|AD
+DZ.KH.AT|Aïn Touila|KH
+DZ.BT.AT|Aïn Touta|BT
+DZ.BU.AT|Aïn TurK|BU
+DZ.OR.AT|Aïn Turk|OR
+DZ.BT.AY|Aïn Yagout|BT
+DZ.TL.AY|Aïn Youcef|TL
+DZ.BS.AZ|Aïn Zaatout|BS
+DZ.SA.AZ|Ain Zana|SA
+DZ.TO.AN|Aïn Zaouia|TO
+DZ.TR.AZ|Aïn Zarit|TR
+DZ.TB.AZ|Aïn Zerga|TB
+DZ.OB.AZ|Aïn Zitoun|OB
+DZ.SK.AZ|Aïn Zouit|SK
+DZ.MD.AS|Aissaouia|MD
+DZ.TO.AA|Aït Aggouacha|TO
+DZ.TO.AD|Aït Bouaddou|TO
+DZ.TO.AB|Aït Boumahdi|TO
+DZ.TO.AC|Aït Chafâa|TO
+DZ.TO.AI|Aït Khelili|TO
+DZ.BU.AZ|Aït Laziz|BU
+DZ.TO.AM|Aït Mahmoud|TO
+DZ.SF.AN|Aït Naoual Mezada|SF
+DZ.TO.AO|Aït Oumalou|TO
+DZ.BJ.AR|Aït R'zine|BJ
+DZ.BJ.AS|Aït Smaïl|BJ
+DZ.SF.AT|Aït Tizi|SF
+DZ.TO.AT|Aït Toudert|TO
+DZ.TO.AH|Aït Yahia|TO
+DZ.TO.AY|Aït Yahia Moussa|TO
+DZ.AR.AK|Akabli|AR
+DZ.TO.AL|Akbil|TO
+DZ.BJ.AB|Akbou|BJ
+DZ.TO.AK|Akerrou|TO
+DZ.BJ.AF|Akfadou|BJ
+DZ.MC.AL|Alaimia|MC
+DZ.AL.AC|Alger Centre|AL
+DZ.BJ.AL|Amalou|BJ
+DZ.SB.AM|Amarnas|SB
+DZ.TL.AM|Amieur|TL
+DZ.ML.AA|Amira Arras|ML
+DZ.BJ.AZ|Amizour|BJ
+DZ.BM.AM|Ammal|BM
+DZ.TS.AM|Ammari|TS
+DZ.RE.AM|Ammi Moussa|RE
+DZ.SF.AM|Amoucha|SF
+DZ.DJ.AR|Amourah|DJ
+DZ.AN.AN|Annaba|AN
+DZ.BJ.AO|Aokas|BJ
+DZ.BU.AO|Aomar|BU
+DZ.AT.AO|Aoubellil|AT
+DZ.MC.AO|Aouf|MC
+DZ.AR.AG|Aougrout|AR
+DZ.AR.AL|Aoulef|AR
+DZ.EB.AR|Arbaouet|EB
+DZ.AD.AR|Arib|AD
+DZ.BT.AR|Arris|BT
+DZ.OR.AR|Arzew|OR
+DZ.ET.AS|Asfour|ET
+DZ.NA.AL|Assela|NA
+DZ.TO.AS|Assi Youcef|TO
+DZ.BU.AM|Ath Mansour Taourirt|BU
+DZ.TL.AZ|Azails|TL
+DZ.TO.AZ|Azazga|TO
+DZ.SK.AA|Azzaba|SK
+DZ.TO.AF|Azeffoun|TO
+DZ.MD.AZ|Aziz|MD
+DZ.MD.AI|Azizia|MD
+DZ.MD.BA|Baata|MD
+DZ.AL.BH|Baba Hassen|AL
+DZ.KH.BB|Babar|KH
+DZ.TL.BA|Bab El Assa|TL
+DZ.AL.BO|Bab El Oued|AL
+DZ.AL.BE|Bab Ezzouar|AL
+DZ.SF.BR|Babor|SF
+DZ.AL.BJ|Bachedjerah|AL
+DZ.SB.BM|Badredine El Mokrani|SB
+DZ.KH.BG|Baghai|KH
+DZ.BM.BG|Baghlia|BM
+DZ.OG.BA|Balidat Ameur|OG
+DZ.AL.BR|Baraki|AL
+DZ.AD.BB|Barbouche|AD
+DZ.BT.BR|Barika|BT
+DZ.AD.BT|Bathia|AD
+DZ.BT.BT|Batna|BT
+DZ.EO.BA|Bayadha|EO
+DZ.SF.BS|Bazer Sakhra|SF
+DZ.BC.BE|Béchar|BC
+DZ.BU.BE|Bechloul|BU
+DZ.TB.BJ|Bedjene|TB
+DZ.LG.EB|Beidha|LG
+DZ.SF.BB|Beidha Bordj|SF
+DZ.BJ.BJ|Béjaïa|BJ
+DZ.TB.BK|Bekkaria|TB
+DZ.SK.BL|Bekkouche Lakhdar|SK
+DZ.AD.BL|Belaas|AD
+DZ.RE.BB|Belassel Bouzegza|RE
+DZ.MS.BB|Belaiba|MS
+DZ.OB.BL|Belala|OB
+DZ.SB.BL|Belarbi|SB
+DZ.BB.BE|Belimour|BB
+DZ.GL.BE|Belkheir|GL
+DZ.SF.BE|Belaa|SF
+DZ.MG.BR|Benabdelmalek Ramdane|MG
+DZ.OG.BE|Benaceur|OG
+DZ.SB.BC|Benachiba Chelia|SB
+DZ.CH.BN|Benairia|CH
+DZ.AL.BA|Ben Aknoun|AL
+DZ.AD.BA|Ben Allal|AD
+DZ.SK.BA|Ben Azzouz|SK
+DZ.CO.BB|Ben Badis (El Horia)|CO
+DZ.SB.BB|Ben Badis|SB
+DZ.MD.BC|Benchicao|MD
+DZ.BM.BC|Ben Choud|BM
+DZ.BB.BD|Ben Daoud|BB
+DZ.RE.BE|Bendaoud|RE
+DZ.GL.BD|Ben Djerrah|GL
+DZ.OR.BF|Ben Freha|OR
+DZ.EO.BG|Ben Guecha|EO
+DZ.DJ.BH|Benhar|DJ
+DZ.BC.BA|Beni Abbes|BC
+DZ.TO.BA|Beni Aissi|TO
+DZ.BM.BA|Beni Amrane|BM
+DZ.MC.BE|Beniane|MC
+DZ.SF.BZ|Beni Aziz|SF
+DZ.TL.BD|Beni Bahdel|TL
+DZ.SK.BB|Beni Bechir|SK
+DZ.CH.BB|Beni Bouattab|CH
+DZ.TL.BB|Beni Boussaid|TL
+DZ.TS.BC|Beni Chaib|TS
+DZ.SF.BC|Beni Chebana|SF
+DZ.BJ.BD|Beni Dejllil|BJ
+DZ.RE.BD|Beni Dergoun|RE
+DZ.TO.BD|Beni Douala|TO
+DZ.SF.BF|Beni Fouda|SF
+DZ.BT.BF|Beni Foudala El Hakania|BT
+DZ.CO.BH|Beni Hamidane|CO
+DZ.CH.BH|Beni Haoua|CH
+DZ.BC.BI|Beni Ikhlef|BC
+DZ.MS.BI|Beni Ilmane|MS
+DZ.BJ.BK|Beni K'Sila|BJ
+DZ.TS.BL|Beni Lahcene|TS
+DZ.BJ.BE|Benimaouche|BJ
+DZ.BJ.BM|Beni-Mellikeche|BJ
+DZ.BL.BM|Beni Merad|BL
+DZ.AL.BS|Béni Messous|AL
+DZ.TL.BM|Beni Mester|TL
+DZ.GL.BZ|Beni Mezline|GL
+DZ.TP.BM|Beni Mileuk|TP
+DZ.SF.BM|Beni Mouhli|SF
+DZ.TL.BO|Beni Ouarsous|TL
+DZ.SF.BO|Beni Ourtilane|SF
+DZ.SK.BO|Beni Oulbane|SK
+DZ.BC.BO|Beni Ounif|BC
+DZ.SF.BN|Beni Oussine|SF
+DZ.CH.BR|Beni Rached|CH
+DZ.TL.BR|Beni Rached|TL
+DZ.AT.BS|Beni Saf|AT
+DZ.MD.BS|Beni Slimane|MD
+DZ.TL.BL|Beni Smiel|TL
+DZ.TL.BS|Beni Snous|TL
+DZ.BL.BT|Beni-Tamou|BL
+DZ.TO.BY|Beni Yenni|TO
+DZ.RE.BZ|Beni Zentis|RE
+DZ.SK.BZ|Beni Zid|SK
+DZ.TO.BK|Beni-Zekki|TO
+DZ.TO.BZ|Beni Zmenzer|TO
+DZ.BL.BE|Benkhelil|BL
+DZ.ET.BM|Ben M'Hidi|ET
+DZ.LG.BB|Bennasser Benchohra|LG
+DZ.TL.BE|Bensekrane|TL
+DZ.MS.BS|Ben Srour|MS
+DZ.DJ.BY|Benyacoub|DJ
+DZ.ML.BA|Benyahia Abderrahmane|ML
+DZ.MS.BZ|Benzouh|MS
+DZ.BJ.BB|Berbacha|BJ
+DZ.MS.BM|Berhoum|MS
+DZ.AN.BE|Berrahal|AN
+DZ.GR.BE|Berriane|GR
+DZ.OB.BR|Berriche|OB
+DZ.ET.BR|Berrihane|ET
+DZ.MD.BE|Berrouaghia|MD
+DZ.BS.BE|Besbes (Ouled Harkat)|BS
+DZ.ET.BS|Besbes|ET
+DZ.OR.BE|Bethioua|OR
+DZ.OB.BH|Behir Chergui|OB
+DZ.SK.BE|Bin El Ouiden|SK
+DZ.MD.BB|Bir Ben Laabed|MD
+DZ.SA.BB|Bir Bouhouche|SA
+DZ.OB.BC|Bir Chouhada|OB
+DZ.TB.BD|Bir Dheb|TB
+DZ.SF.BA|Bir El Arch|SF
+DZ.TB.BA|Bir-El-Ater|TB
+DZ.OR.BD|Bir El Djir|OR
+DZ.SB.BH|Bir El Hammam|SB
+DZ.MS.BF|Bir Foda|MS
+DZ.BU.BG|Bir Ghbalou|BU
+DZ.SF.BH|Bir Haddada|SF
+DZ.DJ.BI|Birine|DJ
+DZ.BB.BK|Bir Kasdali|BB
+DZ.AL.BD|Birkhadem|AL
+DZ.TB.BM|Bir El Mokadem|TB
+DZ.AL.BM|Bir Mourad Raïs|AL
+DZ.AD.BO|Bir Ould Khelifa|AD
+DZ.AL.BT|Birtouta|AL
+DZ.BS.BI|Biskra|BS
+DZ.BT.BI|Bitam|BT
+DZ.BL.BL|Blida|BL
+DZ.TO.BG|Boghni|TO
+DZ.AL.BI|Bologhine Ibnou Ziri|AL
+DZ.AR.BB|Bordj Badji Mokhtar|AR
+DZ.BS.BB|Bordj Ben Azzouz|BS
+DZ.BB.BB|Bordj Bou Arréridj|BB
+DZ.TS.BB|Bordj Bounaama|TS
+DZ.AL.BB|Bordj El Bahri|AL
+DZ.TS.BE|Bordj El Emir Abdelkader|TS
+DZ.IL.BH|Bordj El Haouasse|IL
+DZ.AL.BK|Bordj El Kiffan|AL
+DZ.AD.BE|Bordj Emir Khaled|AD
+DZ.BB.BG|Bordj Ghdir|BB
+DZ.BM.BM|Bordj Menaiel|BM
+DZ.BU.BO|Bordj Okhriss|BU
+DZ.IL.BO|Bordj Omar Driss|IL
+DZ.GL.BS|Bordj Sabat|GL
+DZ.JJ.BT|Bordj T'har|JJ
+DZ.BB.BZ|Bordj Zemoura|BB
+DZ.BL.BA|Bouaarfa|BL
+DZ.MD.BU|Bou Aiche|MD
+DZ.MD.BO|Bouaichoune|MD
+DZ.EB.BL|Boualem|EB
+DZ.SF.BD|Bouandas|SF
+DZ.GL.BM|Bouati Mahmoud|GL
+DZ.TS.BD|Boucaid|TS
+DZ.BS.BO|Bouchakroune|BS
+DZ.GL.BO|Bouchegouf|GL
+DZ.MD.BH|Bouchrahil|MD
+DZ.SK.BC|Bouchtata|SK
+DZ.AR.BO|Bouda|AR
+DZ.BU.BB|Bouderbala|BU
+DZ.SB.BE|Boudjebaa El Bordj|SB
+DZ.BJ.BL|Boudjellil|BJ
+DZ.CO.BM|Boudjeriou Messaoud|CO
+DZ.TO.BJ|Boudjima|TO
+DZ.BM.BD|Boudouaou|BM
+DZ.BM.BB|Boudouaou El Bahri|BM
+DZ.JJ.BY|Boudriaa Ben Yadjis|JJ
+DZ.BL.BF|Boufarik|BL
+DZ.OR.BO|Boufatis|OR
+DZ.SF.BG|Bougaa|SF
+DZ.TR.BO|Bougara|TR
+DZ.MD.BG|Boghar|MD
+DZ.MD.BZ|Boughezoul|MD
+DZ.ET.BG|Bougous|ET
+DZ.EB.BG|Bougtoub|EB
+DZ.BL.BG|Bouguerra|BL
+DZ.MG.BO|Bouguirat|MG
+DZ.GL.BC|Bou Hachana|GL
+DZ.ET.BH|Bouhadjar|ET
+DZ.GL.BH|Bou Hamdane|GL
+DZ.BJ.BH|Bouhamza|BJ
+DZ.MC.BO|Bou Hanifia|MC
+DZ.TP.BH|Bouharoun|TP
+DZ.ML.BO|Bouhatem|ML
+DZ.MC.BH|Bou Henni|MC
+DZ.TL.BH|Bouhlou|TL
+DZ.KH.BO|Bouhmama|KH
+DZ.TL.BI|Bouihi|TL
+DZ.BL.BO|Bouinan|BL
+DZ.BU.BR|Bouïra|BU
+DZ.DJ.BL|Bouira Lahdab|DJ
+DZ.TP.BI|Bou Ismail|TP
+DZ.CH.BK|Boukadir|CH
+DZ.BC.BK|Boukais|BC
+DZ.TB.BO|Boukhadra|TB
+DZ.SB.BO|Boukhanafis|SB
+DZ.BJ.BO|Boukhlifa|BJ
+DZ.BU.BK|Boukram|BU
+DZ.TB.BL|Boulhaf Dir|TB
+DZ.BT.BL|Boulhilat|BT
+DZ.BT.BG|Boumagueur|BT
+DZ.GL.BA|Boumahra Ahmed|GL
+DZ.AD.BF|Boumedfaâ|AD
+DZ.BM.BO|Boumerdès|BM
+DZ.BT.BM|Boumia|BT
+DZ.TO.BN|Bounouh|TO
+DZ.GR.BO|Bounoura|GR
+DZ.AD.BR|Bouchared|AD
+DZ.JJ.BF|Bouraoui Belhadef|JJ
+DZ.TP.BO|Bourkika|TP
+DZ.AL.BU|Bourouba|AL
+DZ.MS.BD|Bou Saâda|MS
+DZ.OR.BS|Bousfer|OR
+DZ.MD.BK|Bouskene|MD
+DZ.SF.BL|Bousselam|SF
+DZ.EB.BS|Boussemghoun|EB
+DZ.JJ.BO|Boucif Ouled Askeur|JJ
+DZ.SF.BT|Boutaleb|SF
+DZ.ET.BT|Bouteldja|ET
+DZ.MS.BT|Bouti Sayeh|MS
+DZ.OR.BL|Boutlélis|OR
+DZ.AL.BZ|Bouzaréah|AL
+DZ.AT.BZ|Bou Zedjar|AT
+DZ.CH.BZ|Bouzeghaia|CH
+DZ.TO.BO|Bouzeguene|TO
+DZ.BM.BK|Bouzegza Keddara|BM
+DZ.BT.BZ|Bouzina|BT
+DZ.BS.BR|Branis|BS
+DZ.CH.BA|Breira|CH
+DZ.EB.BR|Brezina|EB
+DZ.LG.BR|Brida|LG
+DZ.AL.CA|Casbah|AL
+DZ.AT.CH|Chaabet El Ham|AT
+DZ.BM.CA|Chabet El Ameur|BM
+DZ.MD.CL|Challalat El Adhaoura|MD
+DZ.MD.CB|Chahbounia|MD
+DZ.JJ.CN|Chahna|JJ
+DZ.TP.CB|Chaiba|TP
+DZ.DJ.CH|Charef|DJ
+DZ.AR.CH|Charouine|AR
+DZ.ET.CM|Chebaita Mokhtar|ET
+DZ.BL.CB|Chebli|BL
+DZ.KH.CC|Chechar|KH
+DZ.ET.CF|Cheffia|ET
+DZ.EB.CG|Cheguig|EB
+DZ.TR.CH|Chehaima|TR
+DZ.JJ.CK|Chekfa|JJ
+DZ.ML.CL|Chelghoum Laïd|ML
+DZ.KH.CL|Chelia|KH
+DZ.MS.CH|Chellal|MS
+DZ.EB.CL|Chellala|EB
+DZ.BJ.CL|Chellata|BJ
+DZ.BJ.CM|Chemini|BJ
+DZ.BT.CM|Chemora|BT
+DZ.MD.CG|Cheniguel|MD
+DZ.AT.CT|Chentouf|AT
+DZ.AL.CH|Chéraga|AL
+DZ.SK.CH|Cheraia|SK
+DZ.TP.CR|Cherchel|TP
+DZ.TB.CH|Cheria|TB
+DZ.AN.CT|Chetaïbi|AN
+DZ.BS.CH|Chetma|BS
+DZ.TL.CH|Chetouane|TL
+DZ.SB.CB|Chettouane Belaila|SB
+DZ.CH.CT|Chettia|CH
+DZ.BL.CF|Chiffa|BL
+DZ.ML.CH|Chigara|ML
+DZ.ET.CH|Chihani|ET
+DZ.BT.CR|Chir|BT
+DZ.CH.CL|Chlef|CH
+DZ.AN.CR|Chorfa|AN
+DZ.BU.CH|Chorfa|BU
+DZ.MC.CH|Chorfa|MC
+DZ.BS.CO|Chouaiba (Ouled Rahma)|BS
+DZ.BL.CR|Chrea|BL
+DZ.BB.CO|Colla|BB
+DZ.SK.CO|Collo|SK
+DZ.CO.CO|Constantine|CO
+DZ.BM.CO|Corso|BM
+DZ.TR.DA|Dahmouni|TR
+DZ.GL.DA|Dahouara|GL
+DZ.CH.DA|Dahra|CH
+DZ.MD.DA|Damiat|MD
+DZ.TP.DA|Damous|TP
+DZ.BS.DA|Daoussen|BS
+DZ.RE.DB|Dar Ben Abdellah|RE
+DZ.DJ.DC|Dar Chioukh|DJ
+DZ.AL.DB|Dar El Beïda|AL
+DZ.BJ.DA|Darguina|BJ
+DZ.TL.DY|Dar Yaghmouracene|TL
+DZ.IL.DE|Debdeb|IL
+DZ.EO.DE|Debila|EO
+DZ.BU.DE|Dechmia|BU
+DZ.MS.DE|Dehahna|MS
+DZ.SF.DE|Dehamcha|SF
+DZ.AR.DE|Deldoul|AR
+DZ.DJ.DE|Deldoul|DJ
+DZ.BM.DE|Dellys|BM
+DZ.AL.DI|Dély Ibrahim|AL
+DZ.ML.DB|Derradji Bousselah|ML
+DZ.MD.DE|Derrag|MD
+DZ.MD.DB|Deux Bassins|MD
+DZ.SB.DH|Dhaya|SB
+DZ.GR.DB|Dhayet Bendhahoua|GR
+DZ.CO.DM|Didouche Mourad|CO
+DZ.BU.DI|Dirrah|BU
+DZ.BB.DJ|Djaafra|BB
+DZ.EO.DJ|Djamaa|EO
+DZ.BS.DJ|Djemorah|BS
+DZ.IL.DJ|Djanet|IL
+DZ.AL.DK|Djasr Kasentina|AL
+DZ.BL.DJ|Djebabra|BL
+DZ.BU.DJ|Djebahia|BU
+DZ.TL.DJ|Djebala|TL
+DZ.GL.DK|Djeballah Khemissi|GL
+DZ.TO.DA|Djebel-Aissa Mimoun|TO
+DZ.MS.DM|Djebel Messaad|MS
+DZ.TR.DR|Djebilet Rosfa|TR
+DZ.DJ.DJ|Djelfa|DJ
+DZ.AD.DL|Djelida|AD
+DZ.KH.DJ|Djellal|KH
+DZ.JJ.DB|Djemaa Beni Habibi|JJ
+DZ.AD.DO|Djemaa Ouled Cheikh|AD
+DZ.JJ.DJ|Djemila|JJ
+DZ.SF.DJ|Djemila|SF
+DZ.AD.DN|Djendel|AD
+DZ.SK.DS|Djendel Saadi Mohamed|SK
+DZ.NA.DB|Djeniane Bourzeg|NA
+DZ.BT.DR|Djerma|BT
+DZ.BT.DZ|Djezzar|BT
+DZ.RE.DJ|Djidioua|RE
+DZ.TR.DB|Djillali Ben Omar|TR
+DZ.BM.DJ|Djinet|BM
+DZ.MD.DJ|Djouab|MD
+DZ.TP.DO|Douaouda|TP
+DZ.EO.DM|Douar El Ma|EO
+DZ.AL.DO|Douéra|AL
+DZ.DJ.DO|Douis|DJ
+DZ.SD.DT|Doui Thabet|SD
+DZ.TO.DB|Draâ Ben Khedda|TO
+DZ.BJ.DC|Draa El Caid|BJ
+DZ.TO.DM|Draa El Mizan|TO
+DZ.SF.DK|Draa Kebila|SF
+DZ.MD.DS|Draa Essamar|MD
+DZ.AL.DR|Draria|AL
+DZ.SA.DR|Drea|SA
+DZ.ET.DR|Dréan|ET
+DZ.ET.EC|Echatt|ET
+DZ.AD.EB|El Abadia|AD
+DZ.BB.EA|El Ach|BB
+DZ.BB.ER|El Achir|BB
+DZ.AL.EA|El Achour|AL
+DZ.BU.EJ|El Adjiba|BU
+DZ.BL.EA|El-Affroun|BL
+DZ.ET.EA|El Aioun, Taref|ET
+DZ.OG.EA|El Allia|OG
+DZ.OB.EA|El Amiria|OB
+DZ.AD.ER|El Amra|AD
+DZ.AT.EA|El Amria|AT
+DZ.JJ.EN|El Ancer|JJ
+DZ.OR.EA|El Ançor|OR
+DZ.BB.ES|El Anseur|BB
+DZ.JJ.EA|El Aouana|JJ
+DZ.TB.EA|El Aouinet|TB
+DZ.TL.EA|El Aricha|TL
+DZ.BU.ES|El Asnam|BU
+DZ.LG.EA|El Assafia|LG
+DZ.AD.ET|El Attaf|AD
+DZ.GR.EA|El Atteuf|GR
+DZ.ML.EB|Elayadi Barbes|ML
+DZ.EB.EY|El Bayadh|EB
+DZ.AL.EB|El Biar|AL
+DZ.NA.EB|El Biod|NA
+DZ.EB.ES|El Biodh Sidi Cheikh|EB
+DZ.EB.EN|El Bnoud|EB
+DZ.MC.EB|El Bordj|MC
+DZ.OG.EB|El Borma|OG
+DZ.AN.EB|El Bouni|AN
+DZ.OR.EB|El Braya|OR
+DZ.OB.ED|El Dhaala|OB
+DZ.OB.EJ|El Djazia|OB
+DZ.AN.EE|El Eulma|AN
+DZ.SF.EU|El Eulma|SF
+DZ.GL.EF|El Fedjoudj|GL
+DZ.OB.EF|El Fedjouz Boughrara Saoudi|OB
+DZ.TL.EF|El Fehoul|TL
+DZ.BS.EF|El Feidh|BS
+DZ.BJ.EF|El Flaye|BJ
+DZ.MC.ED|El Gaada|MC
+DZ.SK.EG|El Ghedir|SK
+DZ.LG.EG|El Ghicha|LG
+DZ.MC.ER|El Ghomri|MC
+DZ.BS.EG|El Ghrous|BS
+DZ.TL.EG|El Gor|TL
+DZ.DJ.EG|El Guedid|DJ
+DZ.MD.EG|El Guelb El Kebir|MD
+DZ.GR.EG|El Guerrara|GR
+DZ.MC.EG|El Guettana|MC
+DZ.RE.EG|El Guettar|RE
+DZ.SB.EH|El Hacaiba|SB
+DZ.BU.EC|El Hachimia|BU
+DZ.SK.ED|El Hadaik|SK
+DZ.BS.EJ|El Hadjab|BS
+DZ.CH.EH|El Hadjadj|CH
+DZ.AN.EH|El Hadjar|AN
+DZ.OG.EH|El Hadjira|OG
+DZ.BU.EA|El Hakimia|BU
+DZ.BB.EH|El Hamadia|BB
+DZ.RE.ED|El Hamadna|RE
+DZ.MD.EH|El Hamdania|MD
+DZ.MS.EL|El Hamel|MS
+DZ.KH.EH|El Hamma|KH
+DZ.AL.ET|El Hammamet|AL
+DZ.LG.EH|El Houaita|LG
+DZ.BS.EC|El Haouch|BS
+DZ.OB.EH|El Harmilia|OB
+DZ.AL.EH|El Harrach|AL
+DZ.SK.ER|El Harrouch|SK
+DZ.AD.EH|El Hassania|AD
+DZ.SD.EH|El Hassasna|SD
+DZ.BT.EH|El Hassi|BT
+DZ.RE.ES|El Hassi|RE
+DZ.MS.ED|El Houamed|MS
+DZ.TB.EH|El-Houidjbet|TB
+DZ.DJ.EI|El Idrissia|DJ
+DZ.MD.EK|El Kaf Lakhdar|MD
+DZ.ET.EK|El Kala|ET
+DZ.CH.EK|El Karimia|CH
+DZ.JJ.EK|El Kennar Nouchfi|JJ
+DZ.BS.EK|El Kentara|BS
+DZ.OR.EK|El Kerma|OR
+DZ.MC.EK|El Keurt|MC
+DZ.BU.EK|El Khabouzia|BU
+DZ.BM.EK|El Kharrouba|BM
+DZ.EB.EK|El Kheiter|EB
+DZ.DJ.EK|El Khemis|DJ
+DZ.LG.EK|El Kheng|LG
+DZ.CO.EK|El Khroub|CO
+DZ.TB.EK|El Kouif|TB
+DZ.BJ.EK|El Kseur|BJ
+DZ.AL.ED|El Madania|AL
+DZ.BT.EM|El Madher|BT
+DZ.AL.EG|El Magharia|AL
+DZ.KH.EM|El Mahmal|KH
+DZ.BB.EN|El Main|BB
+DZ.AD.EM|El Maine|AD
+DZ.TB.EL|El Ma El Biodh|TB
+DZ.AT.EL|El Malah|AT
+DZ.MC.EM|El Mamounia|MC
+DZ.CH.EM|El Marsa|CH
+DZ.SK.EM|El Marsa|SK
+DZ.RE.EM|El Matmar|RE
+DZ.MC.ET|El Matmor|MC
+DZ.ML.EM|El Mechira|ML
+DZ.EB.EM|El Mehara|EB
+DZ.MC.EN|El Menaouer|MC
+DZ.GR.EM|El Meniaa|GR
+DZ.TB.ER|El Meridj|TB
+DZ.AT.ES|El Messaid|AT
+DZ.TB.EZ|El Mezerra|TB
+DZ.EO.EM|El M'Ghair|EO
+DZ.BB.EM|El M'Hir|BB
+DZ.JJ.EM|El Milia|JJ
+DZ.BS.EM|El Mizaraa|BS
+DZ.BU.EM|El Mokrani (El Madjen)|BU
+DZ.AL.EM|El Mouradia|AL
+DZ.EO.EG|El Ogla|EO
+DZ.TB.EO|El Ogla|TB
+DZ.MD.EM|El Omaria|MD
+DZ.BC.EO|El Ouata|BC
+DZ.EO.EO|El Oued|EO
+DZ.KH.EO|El Oueldja|KH
+DZ.MD.EN|El Ouinet|MD
+DZ.RE.EO|El Ouldja|RE
+DZ.SF.EJ|El-Ouldja|SF
+DZ.SF.ER|El Ouricia|SF
+DZ.BS.EO|El Outaya|BS
+DZ.OB.ER|El Rahia|OB
+DZ.ET.ET|El Taref|ET
+DZ.TS.EY|El Youssoufia|TS
+DZ.AT.EK|Emir Abdelkader|AT
+DZ.JJ.ED|Emir Abdelkader|JJ
+DZ.SK.EE|Emdjez Edchich|SK
+DZ.KH.EN|Ensigha|KH
+DZ.BC.EF|Erg Ferradj|BC
+DZ.JJ.ER|Eraguene|JJ
+DZ.SK.ES|Essebt|SK
+DZ.OR.ES|Es Sénia|OR
+DZ.DJ.FB|Faidh El Botma|DJ
+DZ.TR.FA|Faidja|TR
+DZ.TL.FE|Fellaoucene|TL
+DZ.BJ.FM|Fenaia Maten|BJ
+DZ.AR.FE|Fenoughil|AR
+DZ.BJ.FE|Feraoun|BJ
+DZ.ML.FE|Ferdjioua|ML
+DZ.TB.FE|Ferkane|TB
+DZ.MC.FE|Ferraguig|MC
+DZ.BT.FE|Fesdis|BT
+DZ.SK.FI|Filfila|SK
+DZ.OB.FK|Fkirina|OB
+DZ.TM.FA|Foggaret Ezzaouia|TM
+DZ.MG.FO|Fornaka|MG
+DZ.BS.FO|Foughala|BS
+DZ.TP.FO|Fouka|TP
+DZ.BT.FT|Foum Toub|BT
+DZ.TO.FH|Freha|TO
+DZ.TR.FR|Frenda|TR
+DZ.TO.FK|Frikat|TO
+DZ.MC.FR|Froha|MC
+DZ.OR.GD|Gdyel|OR
+DZ.GR.GH|Ghardaïa|GR
+DZ.MC.GA|Gharrous|MC
+DZ.EB.GH|Ghassoul|EB
+DZ.TL.GH|Ghazaouet|TL
+DZ.JJ.GH|Ghebala|JJ
+DZ.BL.GH|Gherouaou|BL
+DZ.BT.GH|Ghessira|BT
+DZ.BB.GH|Ghilassa|BB
+DZ.MC.GR|Ghriss|MC
+DZ.BT.GO|Gosbat|BT
+DZ.TP.GO|Gouraya|TP
+DZ.ML.GG|Grarem Gouga|ML
+DZ.SF.GB|Guelal Boutaleb|SF
+DZ.GL.GU|Guelma|GL
+DZ.LG.GS|Gueltat Sidi Saad|LG
+DZ.SF.GZ|Guelta Zerka|SF
+DZ.EO.GU|Guemar|EO
+DZ.SF.GN|Guenzet|SF
+DZ.MC.GU|Guerdjoum|MC
+DZ.DJ.GN|Guernini|DJ
+DZ.BU.GU|Guerrouma|BU
+DZ.TR.GU|Guertoufa|TR
+DZ.DJ.GT|Guettara|DJ
+DZ.SF.GJ|Guidjel|SF
+DZ.BT.GU|Guiga|BT
+DZ.TB.GU|Guorriguer|TB
+DZ.MC.EH|Hachem|MC
+DZ.MC.HA|Hacine|MC
+DZ.SA.HD|Haddada|SA
+DZ.RE.HE|Had Echkalla|RE
+DZ.MG.HA|Hadjadj|MG
+DZ.BU.HZ|Hadjera Zerga|BU
+DZ.LG.HM|Hadj Mechri|LG
+DZ.TP.HJ|Hadjout|TP
+DZ.TP.HE|Hadjeret Ennous|TP
+DZ.DJ.HS|Had Sahary|DJ
+DZ.BU.HA|Haizer|BU
+DZ.TR.HA|Hamadia|TR
+DZ.SK.HK|Hamadi Krouma|SK
+DZ.ML.HA|Hamala|ML
+DZ.SF.HA|Hamma|SF
+DZ.CO.HB|Hamma Bouziane|CO
+DZ.BM.HA|Hammedi|BM
+DZ.ET.HB|Hammam Ben Salah|ET
+DZ.TL.HB|Hammam Boughrara|TL
+DZ.AT.HB|Hammam Bouhadjar|AT
+DZ.MS.HD|Hammam Dhalaa|MS
+DZ.GL.HD|Hammam Debagh|GL
+DZ.TB.HA|Hammamet|TB
+DZ.SF.HG|Hammam Guergour|SF
+DZ.BL.HM|Hammam Melouane|BL
+DZ.GL.HN|Hammam N'Bail|GL
+DZ.AD.HR|Hammam Righa|AD
+DZ.SF.HS|Hammam Soukhna|SF
+DZ.EO.HM|Hamraia|EO
+DZ.RE.HA|Hamri|RE
+DZ.OB.HT|Hanchir Toumghani|OB
+DZ.SA.HN|Hanancha|SA
+DZ.MD.HA|Hannacha|MD
+DZ.AL.HA|Haraoua|AL
+DZ.BB.HZ|Haraza|BB
+DZ.SF.HR|Harbil|SF
+DZ.CH.HA|Harchoune|CH
+DZ.BB.HS|Hasnaoua|BB
+DZ.MG.HB|Hassaine (Beni Yahi)|MG
+DZ.EO.HA|Hassani Abdelkrim|EO
+DZ.AT.HA|Hassasna|AT
+DZ.DJ.HB|Hassi Bahbah|DJ
+DZ.OG.HB|Hassi Ben Abdellah|OG
+DZ.OR.HO|Hassi Ben Okba|OR
+DZ.OR.HB|Hassi Bounif|OR
+DZ.SB.HD|Hassi Dahou|SB
+DZ.LG.HD|Hassi Delaa|LG
+DZ.DJ.HE|Hassi El Euch|DJ
+DZ.AT.HG|Hassi El Ghella|AT
+DZ.DJ.HF|Hassi Fedoul|DJ
+DZ.GR.HF|Hassi Fehal|GR
+DZ.GR.HG|Hassi Gara|GR
+DZ.EO.HK|Hassi Khalifa|EO
+DZ.MG.HM|Hassi Mameche|MG
+DZ.OR.HM|Hassi Mefsoukh|OR
+DZ.OG.HM|Hassi Messaoud|OG
+DZ.LG.HR|Hassi R'Mel|LG
+DZ.SB.HZ|Hassi Zehana|SB
+DZ.TP.HT|Hattatba|TP
+DZ.GL.HE|Héliopolis|GL
+DZ.TL.HE|Hennaya|TL
+DZ.CH.HE|Herenfa|CH
+DZ.BT.HI|Hidoussa|BT
+DZ.AD.HO|Hoceinia|AD
+DZ.TL.HO|Honaine|TL
+DZ.SD.HO|Hounet|SD
+DZ.AL.HD|Hussein Dey|AL
+DZ.AL.HY|Hydra|AL
+DZ.CO.IZ|Ibn Ziad|CO
+DZ.TO.IB|Iboudraren|TO
+DZ.BT.IC|Ichmoul|BT
+DZ.TO.ID|Idjeur|TO
+DZ.TM.ID|Idlès|TM
+DZ.TO.IN|Iferhounene|TO
+DZ.TO.IG|Ifigha|TO
+DZ.TO.IF|Iflissen|TO
+DZ.BJ.IA|Ighil-Ali|BJ
+DZ.BJ.IG|Ighrem|BJ
+DZ.BC.IG|Igli|BC
+DZ.TO.IL|Illilten|TO
+DZ.IL.IL|Illizi|IL
+DZ.TO.IO|Illoula Oumalou|TO
+DZ.TO.IM|Imsouhal|TO
+DZ.IL.IA|In Amenas|IL
+DZ.TM.IM|In Amguel|TM
+DZ.TM.IG|In Ghar|TM
+DZ.TM.IZ|In Guezzam|TM
+DZ.BT.IN|Inoughissen|BT
+DZ.TM.IS|In Salah|TM
+DZ.AR.IZ|In Zghmir|AR
+DZ.TO.IR|Irdjen|TO
+DZ.BM.IS|Issers|BM
+DZ.JJ.JI|Jijel|JJ
+DZ.BU.KA|Kadiria|BU
+DZ.KH.KA|Kais|KH
+DZ.RE.KA|Kalaa|RE
+DZ.GL.KB|Kalaat Bousbaa|GL
+DZ.SK.KA|Kanoua|SK
+DZ.NA.KA|Kasdir|NA
+DZ.EB.KA|Kef Lahmar|EB
+DZ.BC.KN|Kenadsa|BC
+DZ.BJ.KE|Kendira|BJ
+DZ.SK.KE|Kerkera|SK
+DZ.BC.KZ|Kerzaz|BC
+DZ.MG.KA|Khadra|MG
+DZ.MC.KH|Khalouia|MC
+DZ.MD.KD|Khams Djouamaa|MD
+DZ.MS.KS|Khatouti Sed Eldjir|MS
+DZ.SA.KD|Khedara|SA
+DZ.MG.KE|Kheïr Eddine|MG
+DZ.JJ.KA|Kheïri Oued Adjoul|JJ
+DZ.BB.KH|Khelil|BB
+DZ.BM.KK|Khemis El Khechna|BM
+DZ.AD.KM|Khemis Miliana|AD
+DZ.SA.KM|Khemissa|SA
+DZ.TP.KH|Khemisti|TP
+DZ.TS.KH|Khemisti|TS
+DZ.KH.KC|Khenchela|KH
+DZ.SK.KM|Kheng Maoun|SK
+DZ.BS.KS|Khenguet Sidi Nadji|BS
+DZ.BJ.KH|Kherrata|BJ
+DZ.GL.KH|Khezara|GL
+DZ.KH.KR|Khirane|KH
+DZ.MS.KH|Khoubana|MS
+DZ.AL.KH|Khraicia|AL
+DZ.BT.KI|Kimmel|BT
+DZ.TP.KO|Kolea|TP
+DZ.JJ.KS|Kouas|JJ
+DZ.AL.KO|Kouba|AL
+DZ.EO.KO|Kouinine|EO
+DZ.EB.KR|Krakda|EB
+DZ.BC.KS|Ksabi|BC
+DZ.BT.KB|Ksar Bellezma|BT
+DZ.TR.KC|Ksar Chellala|TR
+DZ.SF.KA|Ksar El Abtal|SF
+DZ.MD.KB|Ksar El Boukhari|MD
+DZ.LG.KH|Ksar El Hirane|LG
+DZ.OB.KS|Ksar El Sbihi|OB
+DZ.AR.KK|Ksar Kaddour|AR
+DZ.BB.KS|Ksour|BB
+DZ.CH.LM|Labiod Medjadja|CH
+DZ.ET.LD|Lac Des Oiseaux|ET
+DZ.LG.LA|Laghouat|LG
+DZ.RE.LA|Lahlef|RE
+DZ.BC.LA|Lahmar|BC
+DZ.BU.LA|Lakhdaria|BU
+DZ.BL.LA|Larbaa|BL
+DZ.BT.LR|Larbaa|BT
+DZ.TS.LB|Larbaa|TS
+DZ.TO.LN|Larbaâ Nath Irathen|TO
+DZ.BM.LA|Larbatache|BM
+DZ.TS.LJ|Lardjem|TS
+DZ.TP.LA|Larhat|TP
+DZ.TS.LY|Layoune|TS
+DZ.TS.LZ|Lazharia|TS
+DZ.BT.LZ|Lazrou|BT
+DZ.BM.LE|Leghata|BM
+DZ.BT.LE|Lemsane|BT
+DZ.SB.LE|Lamtar|SB
+DZ.AL.LE|Les Eucalyptus|AL
+DZ.BS.LC|Lichana|BS
+DZ.BS.LI|Lioua|BS
+DZ.TS.MA|Maacem|TS
+DZ.MS.MD|Maadid|MS
+DZ.BT.MA|Maafa|BT
+DZ.BU.ML|Maala|BU
+DZ.BU.MM|Maamora|BU
+DZ.SD.MA|Maamora|SD
+DZ.SF.MA|Maaouia|SF
+DZ.MS.MA|Maarif|MS
+DZ.TO.MA|Maatkas|TO
+DZ.TR.MN|Madna|TR
+DZ.TL.MG|Maghnia|TL
+DZ.MS.MG|Magra|MS
+DZ.EO.MA|Magrane|EO
+DZ.MC.MD|Mocta Douz|MC
+DZ.TR.MH|Mahdia|TR
+DZ.AL.MH|Mahelma|AL
+DZ.MC.MK|Makdha|MC
+DZ.TO.MD|Makouda|TO
+DZ.BB.MA|Mansoura|BB
+DZ.GR.MA|Mansoura|GR
+DZ.MG.MA|Mansourah|MG
+DZ.TL.MN|Mansourah|TL
+DZ.SF.MK|Maoklane|SF
+DZ.MC.MA|Maoussa|MC
+DZ.AL.MR|Marsa|AL
+DZ.TL.MB|Marsa Ben M'Hidi|TL
+DZ.OR.MH|Mers El Hadjadj|OR
+DZ.MC.MC|Mascara|MC
+DZ.RE.MA|Mazouna|RE
+DZ.BU.MC|M'Chedallah|BU
+DZ.SB.MC|M'Cid|SB
+DZ.MS.MC|M'Cif|MS
+DZ.SA.MD|M'Daourouche|SA
+DZ.BT.MD|M'Doukal|BT
+DZ.NA.ME|Mecheria|NA
+DZ.BS.MC|M'Chouneche|BS
+DZ.BC.MH|Mechraa Houari Boumediene|BC
+DZ.TR.MS|Mechraa Safa|TR
+DZ.SA.MA|Mechroha|SA
+DZ.TO.MC|Mechtrass|TO
+DZ.MD.MD|Médéa|MD
+DZ.RE.MD|Mediouna|RE
+DZ.BB.ME|Medjana|BB
+DZ.GL.MA|Medjez Amar|GL
+DZ.GL.MS|Medjez Sfa|GL
+DZ.MD.MJ|Medjebar|MD
+DZ.MS.ME|Medjedel|MS
+DZ.TR.MI|Medrissa|TR
+DZ.TR.MO|Medroussa|TR
+DZ.BL.ME|Meftah|BL
+DZ.MD.MF|Meftaha|MD
+DZ.OG.ME|Megarine|OG
+DZ.MD.MR|Megheraoua|MD
+DZ.TR.MG|Meghila|TR
+DZ.BS.MK|Mekhadma|BS
+DZ.AD.ME|Mekhatria|AD
+DZ.SB.MK|Makedra|SB
+DZ.TO.ML|Mekla|TO
+DZ.NA.MB|Mekmen Ben Amar|NA
+DZ.TS.ME|Melaab|TS
+DZ.BJ.ME|Melbou|BJ
+DZ.TR.ML|Mellakou|TR
+DZ.BT.MN|Menaa|BT
+DZ.MS.MO|Menaa (Ouled Atia)|MS
+DZ.TP.MC|Menaceur|TP
+DZ.RE.MN|Mendes|RE
+DZ.TP.MR|Merad|TP
+DZ.SA.ME|Merahna|SA
+DZ.RE.MS|Merdja Sidi Abed|RE
+DZ.SB.MH|Marhoum|SB
+DZ.BC.ME|Meridja|BC
+DZ.SB.MN|Merine|SB
+DZ.BT.MR|Merouana|BT
+DZ.OR.MK|Mers El Kebir|OR
+DZ.OB.ME|Meskiana|OB
+DZ.MG.MS|Mesra|MG
+DZ.DJ.ME|Messaad|DJ
+DZ.TP.MS|Messelmoun|TP
+DZ.AR.ME|Metarfa|AR
+DZ.GR.ME|Metlili|GR
+DZ.SB.MZ|Mezaourou|SB
+DZ.BU.ME|Mezdour|BU
+DZ.MD.MZ|Mezerana|MD
+DZ.MG.MZ|Mezghrane|MG
+DZ.SF.ME|Mezloug|SF
+DZ.MC.MH|M'Hamid|MC
+DZ.EO.MO|Mih Ouansa|EO
+DZ.MD.MI|Mihoub|MD
+DZ.ML.MI|Mila|ML
+DZ.AD.MI|Miliana|AD
+DZ.ML.MZ|Minar Zarza|ML
+DZ.OR.MI|Misserghin|OR
+DZ.TO.MI|Mizrana|TO
+DZ.TO.MK|M'Kira|TO
+DZ.BS.ML|M'Lili|BS
+DZ.DJ.ML|M'Liliha|DJ
+DZ.OG.MN|M'Naguer|OG
+DZ.BC.MO|Mogheul|BC
+DZ.NA.MO|Moghrar|NA
+DZ.AL.MB|Mohamed Belouizdad|AL
+DZ.MS.MB|Mohamed Boudiaf|MS
+DZ.AL.MO|Mohammedia|AL
+DZ.MC.MO|Mohammadia|MC
+DZ.TB.MO|Morsott|TB
+DZ.MG.MO|Mostaganem|MG
+DZ.DJ.MO|Moudjebara|DJ
+DZ.SD.ML|Moulay Larbi|SD
+DZ.SB.MS|Moulay Slissen|SB
+DZ.CH.MO|Moussadek|CH
+DZ.BL.MO|Mouzaia|BL
+DZ.EO.MR|M'Rara|EO
+DZ.KH.MS|M'Sara|KH
+DZ.MS.MS|M'Sila|MS
+DZ.TL.MF|Msirda Fouaga|TL
+DZ.BJ.MS|M'Sisna|BJ
+DZ.MS.MT|M'Tarfa|MS
+DZ.KH.MT|M'Toussa|KH
+DZ.SB.MB|Mustafa Ben Brahim|SB
+DZ.NA.NA|Naama|NA
+DZ.BM.NA|Naciria|BM
+DZ.TP.NA|Nador|TP
+DZ.TR.ND|Nadorah|TR
+DZ.TR.NM|Naima|TR
+DZ.EO.NA|Nakhla|EO
+DZ.GL.NE|Nechmaya|GL
+DZ.TL.NE|Nedroma|TL
+DZ.TB.NE|Negrine|TB
+DZ.MG.NE|Nekmaria|MG
+DZ.MC.NE|Nesmoth|MC
+DZ.OG.NE|Nezla|OG
+DZ.BT.NG|N'Gaous|BT
+DZ.OG.NG|N'Goussa|OG
+DZ.MC.OG|Oggaz|MC
+DZ.TB.OM|Ogla Melha|TB
+DZ.OR.OR|Oran|OR
+DZ.TO.OC|Ouacifs|TO
+DZ.TO.OD|Ouadhia|TO
+DZ.TO.OG|Ouaguenoun|TO
+DZ.MD.OU|Ouamri|MD
+DZ.MS.ON|Ouanougha|MS
+DZ.OG.OU|Ouargla|OG
+DZ.RE.OU|Ouarizane|RE
+DZ.JJ.OU|Oudjana|JJ
+DZ.ML.OA|Oued Athmania|ML
+DZ.AT.OB|Oued Berkeche|AT
+DZ.BT.OC|Oued Chaaba|BT
+DZ.GL.OC|Oued Cheham|GL
+DZ.AD.OC|Oued Chorfa|AD
+DZ.TL.OC|Oued Chouly|TL
+DZ.AD.OD|Oued Djemaa|AD
+DZ.BL.OD|Oued Djer|BL
+DZ.MC.OA|Oued El Abtal|MC
+DZ.EO.OA|Oued El Alenda|EO
+DZ.BL.OA|Oued El Alleug|BL
+DZ.AN.OA|Oued El Aneb|AN
+DZ.SF.OB|Oued El Barad|SF
+DZ.BU.OB|Oued El Berdi|BU
+DZ.RE.OD|Oued El Djemaa|RE
+DZ.MG.OK|Oued El Kheir|MG
+DZ.BT.OM|Oued El Ma|BT
+DZ.ML.OE|Oued Endja|ML
+DZ.RE.OE|Oued Essalem|RE
+DZ.CH.OF|Oued Fodda|CH
+DZ.GL.OF|Oued Fragha|GL
+DZ.BJ.OG|Oued Ghir|BJ
+DZ.CH.OG|Oued Goussine|CH
+DZ.MD.OH|Oued Harbil|MD
+DZ.SA.OK|Oued Keberit|SA
+DZ.AL.OK|Oued Koriche|AL
+DZ.TR.OL|Oued Lilli|TR
+DZ.LG.OR|Oued Morra|LG
+DZ.LG.OZ|Oued M'Zi|LG
+DZ.OB.ON|Oued Nini|OB
+DZ.RE.OR|Oued Rhiou|RE
+DZ.SB.OB|Oued Sebaa|SB
+DZ.AT.OS|Oued Sebbah|AT
+DZ.SB.OF|Oued Sefioun|SB
+DZ.ML.OS|Oued Seguen|ML
+DZ.CH.OS|Oued Sly|CH
+DZ.AL.OS|Oued Smar|AL
+DZ.BT.OT|Oued Taga|BT
+DZ.SB.OT|Oued Taourira|SB
+DZ.MC.OT|Oued Taria|MC
+DZ.OR.OT|Oued Tlelat|OR
+DZ.GL.OZ|Oued Zenati|GL
+DZ.SK.OZ|Oued Z'hor|SK
+DZ.ET.OZ|Oued Zitoun|ET
+DZ.TB.OU|Ouenza|TB
+DZ.MD.OZ|Ouzera|MD
+DZ.SA.OU|Ouillen|SA
+DZ.SK.OB|Ouldja Boulballout|SK
+DZ.CH.OA|Ouled Abbes|CH
+DZ.MS.OA|Ouled Addi Guebala|MS
+DZ.SF.OA|Ouled Addouane|SF
+DZ.AR.OT|Ouled Ahmed Temmi|AR
+DZ.AR.OA|Ouled Aissa|AR
+DZ.BM.OA|Ouled Aissa|BM
+DZ.BT.OA|Ouled Ammar|BT
+DZ.MD.OA|Ouled Antar|MD
+DZ.BT.OO|Ouled Aouf|BT
+DZ.SK.OA|Ouled Attia|SK
+DZ.CH.OB|Ouled Ben Abdelkader|CH
+DZ.TS.OB|Ouled Bessem|TS
+DZ.MD.OC|Ouled Bouachra|MD
+DZ.AT.OJ|Ouled Boudjemaa|AT
+DZ.MG.OB|Ouled Boughalem|MG
+DZ.BB.OB|Ouled Brahem|BB
+DZ.MD.OB|Ouled Brahim|MD
+DZ.SD.OB|Ouled Brahim|SD
+DZ.AL.OC|Ouled Chebel|AL
+DZ.BB.OD|Ouled Dahmane|BB
+DZ.MD.OD|Ouled Deide|MD
+DZ.MS.OJ|Ouled Derradj|MS
+DZ.BS.OD|Ouled Djellal|BS
+DZ.SA.OD|Ouled Driss|SA
+DZ.BT.OF|Ouled Fadhel|BT
+DZ.CH.OR|Ouled Fares|CH
+DZ.AL.OF|Ouled Fayet|AL
+DZ.OB.OG|Ouled Gacem|OB
+DZ.OB.OH|Ouled Hamla|OB
+DZ.SK.OH|Ouled Hbaba|SK
+DZ.BM.OH|Ouled Hedadj|BM
+DZ.MD.OL|Ouled Hellal|MD
+DZ.SD.OK|Ouled Khaled|SD
+DZ.ML.OK|Ouled Khalouf|ML
+DZ.BC.OK|Ouled Khoudir|BC
+DZ.AT.OK|Ouled Kihel|AT
+DZ.MG.OM|Ouled Malah|MG
+DZ.MD.OM|Ouled Maaref|MD
+DZ.MS.OD|Ouled Madhi|MS
+DZ.MS.OM|Ouled Mansour|MS
+DZ.TL.OM|Ouled Mimoun|TL
+DZ.SA.OM|Ouled Moumen|SA
+DZ.BM.OM|Ouled Moussa|BM
+DZ.JJ.OR|Ouled Rabah|JJ
+DZ.BU.OR|Ouled Rached|BU
+DZ.CO.OR|Ouled Rahmoune|CO
+DZ.KH.OR|Ouled Rechache|KH
+DZ.TL.OR|Ouled Riyah|TL
+DZ.SF.OS|Ouled Sabor|SF
+DZ.AR.OS|Ouled Said|AR
+DZ.BT.OL|Ouled Sellem|BT
+DZ.SF.OD|Ouled Si Ahmed|SF
+DZ.BB.OS|Ouled Sidi Brahim|BB
+DZ.MS.OB|Ouled Sidi Brahim|MS
+DZ.RE.OS|Ouled Sidi Mihoub|RE
+DZ.BT.OS|Ouled Si Slimane|BT
+DZ.BL.OS|Ouled Slama|BL
+DZ.MS.OS|Ouled Slimane|MS
+DZ.SF.OT|Ouled Tebben|SF
+DZ.JJ.OY|Ouled Yahia Khadrouche|JJ
+DZ.RE.OY|Ouled Aiche|RE
+DZ.BL.OY|Ouled Yaiche|BL
+DZ.OB.OZ|Ouled Zouaï|OB
+DZ.AT.OG|Oulhaca El Gheraba|AT
+DZ.MS.OT|Oultene|MS
+DZ.BS.OM|Oumache|BS
+DZ.TB.OA|Oum Ali|TB
+DZ.CH.OD|Oum Drou|CH
+DZ.SA.OA|Oum El Adhaim|SA
+DZ.TN.OA|Oum El Assel|TN
+DZ.OB.OB|Oum El Bouaghi|OB
+DZ.MD.OE|Oum El Djalil|MD
+DZ.DJ.OL|Oum Laadham|DJ
+DZ.SK.OT|Oum Toub|SK
+DZ.EO.OT|Oum Touyour|EO
+DZ.BS.OR|Ourlal|BS
+DZ.EO.OU|Ourmes|EO
+DZ.BT.OE|Ouyoun El Assafir|BT
+DZ.BJ.OU|Ouzzelaguen|BJ
+DZ.BB.RA|Rabta|BB
+DZ.SA.RA|Ragouba|SA
+DZ.AL.RA|Rahmania|AL
+DZ.TR.RA|Rahouia|TR
+DZ.AL.RH|Rais Hamidou|AL
+DZ.SK.RD|Ramdane Djamel|SK
+DZ.RE.RA|Ramka|RE
+DZ.ET.RS|Raml Souk|ET
+DZ.BU.RA|Raouraoua|BU
+DZ.MC.RA|Ras Ain Amirouche|MC
+DZ.GL.RA|Ras El Agba|GL
+DZ.BT.RA|Ras El Aioun|BT
+DZ.SB.RM|Ras El Ma|SB
+DZ.BB.RO|Ras El Oued|BB
+DZ.BS.RM|Ras Miaad (Ouled Sassi)|BS
+DZ.TR.RE|Rechaiga|TR
+DZ.SB.RD|Redjem Demouche|SB
+DZ.AR.RE|Reggane|AR
+DZ.AL.RE|Reghaia|AL
+DZ.EO.RE|Reguiba|EO
+DZ.BT.RE|Rehbat|BT
+DZ.RE.RE|Relizane|RE
+DZ.TL.RE|Remchi|TL
+DZ.KH.RE|Remila|KH
+DZ.BU.RI|Ridane|BU
+DZ.EO.RO|Robbah|EO
+DZ.EB.RO|Rogassa|EB
+DZ.GL.RO|Roknia|GL
+DZ.SF.RO|Rasfa|SF
+DZ.ML.RO|Rouached|ML
+DZ.MD.RO|Roubia|MD
+DZ.AL.RO|Rouïba|AL
+DZ.AD.RO|Rouina|AD
+DZ.OG.RO|Rouissat|OG
+DZ.TL.SB|Sabra|TL
+DZ.SA.SO|Safel El Ouiden|SA
+DZ.MG.SF|Safsaf|MG
+DZ.TB.SS|Safsaf El Ouesra|TB
+DZ.BU.SA|Saharidj|BU
+DZ.SD.SD|Saïda|SD
+DZ.SF.SB|Salah Bey|SF
+DZ.SK.SB|Salah Bouchaour|SK
+DZ.AR.SA|Sali|AR
+DZ.MD.SA|Saneg|MD
+DZ.AL.SA|Saoula|AL
+DZ.MG.SY|Sayada|MG
+DZ.AR.SE|Sebaa|AR
+DZ.TR.SE|Sebaine|TR
+DZ.TL.SC|Sebaa Chioukh|TL
+DZ.TL.SE|Sebdou|TL
+DZ.LG.SE|Sebgag|LG
+DZ.GR.SE|Sebseb|GR
+DZ.TR.ST|Sebt|TR
+DZ.BJ.SE|Seddouk|BJ
+DZ.MC.SJ|Sedjerara|MC
+DZ.DJ.SR|Sed Rahal|DJ
+DZ.SA.SE|Sedrata|SA
+DZ.MD.SY|Sedraia|MD
+DZ.BT.SF|Sefiane|BT
+DZ.BT.SG|Seggana|BT
+DZ.MD.SG|Seghouane|MD
+DZ.MC.SH|Sehailia|MC
+DZ.SB.ST|Sehala Thaoura|SB
+DZ.GL.SA|Sellaoua Announa|GL
+DZ.JJ.SB|Selma Benziada|JJ
+DZ.DJ.SE|Selmana|DJ
+DZ.CH.SE|Sendjas|CH
+DZ.AN.SE|Seraidi|AN
+DZ.SF.SG|Serdj El Ghoul|SF
+DZ.TR.SN|Serghine|TR
+DZ.BT.SR|Seriana|BT
+DZ.SF.SE|Sétif|SF
+DZ.JJ.SE|Settara|JJ
+DZ.SB.SF|Sfissef|SB
+DZ.NA.SF|Sfissifa|NA
+DZ.TR.SG|Si Abdelghani|TR
+DZ.JJ.SA|Sidi Abdelaziz|JJ
+DZ.MC.SD|Sidi Abdeldjebar|MC
+DZ.TL.SA|Sidi Abdelli|TL
+DZ.MC.SM|Sidi Abdelmoumene|MC
+DZ.CH.SR|Sidi Abderrahmane|CH
+DZ.TR.SR|Sidi Abderrahmane|TR
+DZ.TS.SA|Sidi Abed|TS
+DZ.SD.SA|Sidi Ahmed|SD
+DZ.BJ.SA|Sidi-Aich|BJ
+DZ.MS.SD|Sidi Aissa|MS
+DZ.CH.SK|Sidi Akkacha|CH
+DZ.MG.SA|Sidi Ali|MG
+DZ.SB.SA|Sidi Ali Benyoub|SB
+DZ.SB.SI|Sidi Ali Boussidi|SB
+DZ.TR.SM|Sidi Ali Mellal|TR
+DZ.AN.SA|Sidi Amar|AN
+DZ.SD.SR|Sidi Amar|SD
+DZ.TP.SA|Sidi Amar|TP
+DZ.EB.SA|Sidi Ameur|EB
+DZ.MS.SA|Sidi Ameur|MS
+DZ.EO.SM|Sidi Amrane|EO
+DZ.EO.SA|Sidi Aoun|EO
+DZ.BJ.SD|Sidi Ayad|BJ
+DZ.DJ.SB|Sidi Baizid|DJ
+DZ.TR.SB|Sidi Bakhti|TR
+DZ.SB.SB|Sidi Bel Abbès|SB
+DZ.MG.SB|Sidi Bellater|MG
+DZ.AT.SA|Sidi Ben Adda|AT
+DZ.OR.SB|Sidi Ben Yebka|OR
+DZ.SD.SB|Sidi Boubekeur|SD
+DZ.AT.SB|Sidi Boumediene|AT
+DZ.MC.SB|Sidi Boussaid|MC
+DZ.TS.SB|Sidi Boutouchent|TS
+DZ.LG.SB|Sidi Bouzid|LG
+DZ.SB.SM|Sidi Brahim|SB
+DZ.OR.SC|Sidi Chami|OR
+DZ.SB.SC|Sidi Chaib|SB
+DZ.SB.SD|Sidi Dahou Zair|SB
+DZ.MD.SD|Sidi Damed|MD
+DZ.BM.SD|Sidi Daoud|BM
+DZ.TL.SD|Sidi Djilali|TL
+DZ.BB.SE|Sidi Embarek|BB
+DZ.SA.SF|Sidi Fredj|SA
+DZ.TP.SG|Sidi Ghiles|TP
+DZ.MS.SH|Sidi Hadjeres|MS
+DZ.SB.SH|Sidi Hamadouche|SB
+DZ.TR.SH|Sidi Hosni|TR
+DZ.MC.SK|Sidi Kada|MC
+DZ.BS.SK|Sidi Khaled|BS
+DZ.SB.SK|Sidi Khaled|SB
+DZ.ML.SK|Sidi Khelifa|ML
+DZ.EO.SK|Sidi Khelil|EO
+DZ.RE.SK|Sidi Khettab|RE
+DZ.OG.SK|Sidi Khouiled|OG
+DZ.DJ.SL|Sidi Ladjel|DJ
+DZ.SB.SL|Sidi Lahcene|SB
+DZ.AD.SL|Sidi Lakhdar|AD
+DZ.MG.SL|Sidi Lakhdar|MG
+DZ.TS.SL|Sidi Lantri|TS
+DZ.RE.SL|Sidi Lazreg|RE
+DZ.LG.SM|Sidi Makhlouf|LG
+DZ.JJ.SM|Sidi Maarouf|JJ
+DZ.TL.SM|Sidi Medjahed|TL
+DZ.ML.SM|Sidi Merouane|ML
+DZ.SK.SM|Sidi Mezghiche|SK
+DZ.AL.SH|Sidi M'Hamed|AL
+DZ.MS.SM|Sidi M'Hamed|MS
+DZ.RE.SB|Sidi M'hamed Ben Ali|RE
+DZ.RE.SM|Sidi M'hamed Benaouda|RE
+DZ.AL.SM|Sidi Moussa|AL
+DZ.MD.SN|Sidi Naamane|MD
+DZ.TO.SN|Sidi Naamane|TO
+DZ.BS.SO|Sidi Okba|BS
+DZ.AT.SO|Sidi Ouriache (Tadmaya)|AT
+DZ.MD.SR|Sidi Rabai|MD
+DZ.TP.SR|Sidi Rached|TP
+DZ.RE.SS|Sidi Saada|RE
+DZ.AT.SS|Sidi Safi|AT
+DZ.TP.SS|Sidi Semiane|TP
+DZ.EB.SS|Sidi Slimane|EB
+DZ.OG.SS|Sidi Slimane|OG
+DZ.TS.SS|Sidi Slimane|TS
+DZ.EB.ST|Sidi Taifour|EB
+DZ.SB.SY|Sidi Yacoub|SB
+DZ.MD.SH|Sidi Zahar|MD
+DZ.MD.SZ|Sidi Ziane|MD
+DZ.MD.SM|Si El Mahdjoub|MD
+DZ.MC.SI|Sig|MC
+DZ.OB.SI|Sigus|OB
+DZ.BM.SM|Si Mustapha|BM
+DZ.MG.SI|Sirat|MG
+DZ.SK.SK|Skikda|SK
+DZ.MS.SL|Slim|MS
+DZ.BJ.SM|Smaoun|BJ
+DZ.CH.SO|Sobha|CH
+DZ.MG.SO|Souaflia|MG
+DZ.MD.SO|Souagui|MD
+DZ.TL.SH|Souahlia|TL
+DZ.MS.SO|Souamaa|MS
+DZ.TO.SO|Souamaa|TO
+DZ.TL.SN|Souani|TL
+DZ.ET.SO|Souarekh|ET
+DZ.TR.SO|Sougueur|TR
+DZ.BL.SH|Souhan|BL
+DZ.AL.SO|Souidania|AL
+DZ.SA.SA|Souk Ahras|SA
+DZ.BM.SH|Souk El Haad|BM
+DZ.RE.SH|Souk El Had|RE
+DZ.BU.SK|Souk El Khemis|BU
+DZ.BJ.ST|Souk El Tenine|BJ
+DZ.TO.ST|Souk El Thenine|TO
+DZ.OB.SN|Souk Naamane|OB
+DZ.BJ.SO|Souk Oufella|BJ
+DZ.TL.ST|Souk Tlata|TL
+DZ.BL.SM|Soumaa|BL
+DZ.MG.SR|Sour|MG
+DZ.BU.SG|Sour El Ghouzlane|BU
+DZ.TB.SG|Stah Guentis|TB
+DZ.AL.ST|Staouéli|AL
+DZ.MG.ST|Stidia|MG
+DZ.EO.ST|Still|EO
+DZ.EB.SN|Stitten|EB
+DZ.BC.TB|Tabelbala|BC
+DZ.SB.TB|Tabia|SB
+DZ.MD.TB|Tablat|MD
+DZ.AD.TZ|Tacheta Zegagha|AD
+DZ.SF.TC|Tachouda|SF
+DZ.LG.TM|Tadjemout|LG
+DZ.CH.TJ|Tadjena|CH
+DZ.ML.TA|Tadjenanet|ML
+DZ.LG.TR|Tadjrouna|LG
+DZ.TO.TA|Tadmait|TO
+DZ.DJ.TA|Tadmit|DJ
+DZ.SB.TF|Tafissour|SB
+DZ.OR.TA|Tafraoui|OR
+DZ.MD.TF|Tafraout|MD
+DZ.BB.TF|Tafreg|BB
+DZ.TR.TG|Tagdemt|TR
+DZ.BC.TA|Taghit|BC
+DZ.SB.TG|Teghalimet|SB
+DZ.BU.TZ|Taghzout|BU
+DZ.EO.TA|Taghzout|EO
+DZ.BB.TG|Taglait|BB
+DZ.BU.TD|Taguedit|BU
+DZ.JJ.TA|Taher|JJ
+DZ.OG.TA|Taibet|OG
+DZ.TR.TK|Takhemaret|TR
+DZ.BJ.TH|Tala Hamza|BJ
+DZ.SF.TI|Talaifacene|SF
+DZ.EO.TL|Taleb Larbi|EO
+DZ.BT.TL|Talkhamt|BT
+DZ.AR.TL|Talmine|AR
+DZ.SK.TA|Tamalous|SK
+DZ.AR.TN|Tamantit|AR
+DZ.AR.TA|Tamekten|AR
+DZ.TS.TA|Tamalaht|TS
+DZ.TM.TM|Tamenghasset|TM
+DZ.AR.TE|Tamest|AR
+DZ.MD.TM|Tamezguida|MD
+DZ.GL.TA|Tamlouka|GL
+DZ.BJ.TA|Tamokra|BJ
+DZ.BJ.TJ|Tamridjet|BJ
+DZ.MS.TS|Tamsa|MS
+DZ.BC.TT|Tamtert|BC
+DZ.KH.TM|Tamza|KH
+DZ.AT.TA|Tamzoura|AT
+DZ.LG.TA|Taouila|LG
+DZ.SB.TO|Taoudmout|SB
+DZ.CH.TG|Taougrit|CH
+DZ.SA.TA|Taoura|SA
+DZ.BM.TA|Taourga|BM
+DZ.BJ.TI|Taourit Ighil|BJ
+DZ.KH.TA|Taouzient|KH
+DZ.AD.TI|Tarik Ibn-Ziad|AD
+DZ.MS.TR|Tarmount|MS
+DZ.BJ.TK|Taskriout|BJ
+DZ.ML.TH|Tassadane Haddada|ML
+DZ.SB.TS|Tessala|SB
+DZ.BT.TX|Taxlent|BT
+DZ.SF.TY|Taya|SF
+DZ.MG.TA|Tazgait|MG
+DZ.BJ.TZ|Tazmalt|BJ
+DZ.BT.TZ|Tazoult|BT
+DZ.TM.TA|Tazrouk|TM
+DZ.OG.TB|Tebesbest|OG
+DZ.TB.TE|Tébessa|TB
+DZ.SF.TE|Telaa|SF
+DZ.SB.TL|Telagh|SB
+DZ.CH.TL|Telassa|CH
+DZ.ML.TE|Teleghma|ML
+DZ.OG.TM|Temacine|OG
+DZ.EO.TE|Tenedla|EO
+DZ.CH.TN|Ténès|CH
+DZ.BT.TA|Teniet El Abed|BT
+DZ.BB.TN|Teniet En Nasr|BB
+DZ.SB.TN|Tenira|SB
+DZ.AT.TE|Terga|AT
+DZ.TL.TB|Terny Beni Hdiel|TL
+DZ.SA.TE|Terraguelt|SA
+DZ.ML.TB|Terrai Bainen|ML
+DZ.BB.TE|Tesmart|BB
+DZ.AL.TM|Tessala-El-Merdja|AL
+DZ.ML.TL|Tessala Lemtai|ML
+DZ.JJ.TE|Texenna|JJ
+DZ.TB.TH|Tlidjene|TB
+DZ.BM.TH|Thenia|BM
+DZ.TS.TH|Theniet El Had|TS
+DZ.MD.TD|Tlatet Eddouair|MD
+DZ.TL.TI|Tienet|TL
+DZ.TR.TR|Tiaret|TR
+DZ.BJ.TB|Tibane|BJ
+DZ.ML.TI|Tiberguent|ML
+DZ.AD.TB|Tiberkanine|AD
+DZ.BJ.TC|Tichy|BJ
+DZ.TR.TD|Tidda|TR
+DZ.BM.TJ|Tidjelabine|BM
+DZ.SA.TI|Tiffech|SA
+DZ.BJ.TF|Tifra|BJ
+DZ.BT.TN|Tighanimine|BT
+DZ.BT.TG|Tigharghar|BT
+DZ.MC.TG|Tighenif|MC
+DZ.TO.TZ|Tigzirt|TO
+DZ.BT.TT|Tilatou|BT
+DZ.SB.TI|Tilmouni|SB
+DZ.BJ.TM|Timezrit|BJ
+DZ.BM.TM|Timezrit|BM
+DZ.BT.TM|Timgad|BT
+DZ.AR.TI|Timiaouine|AR
+DZ.TO.TM|Timizart|TO
+DZ.AR.TM|Timmimoun|AR
+DZ.BC.TI|Timoudi|BC
+DZ.TN.TI|Tindouf|TN
+DZ.BJ.TD|Tinedbar|BJ
+DZ.AR.TK|Tinerkouk|AR
+DZ.TM.TZ|Tin Zaouatine|TM
+DZ.NA.TI|Tiout|NA
+DZ.TP.TI|Tipaza|TP
+DZ.SD.TI|Tircine|SD
+DZ.TO.TT|Tirmitine|TO
+DZ.TS.TI|Tissemsilt|TS
+DZ.AR.TT|Tit|AR
+DZ.BB.TI|Tixter|BB
+DZ.MC.TZ|Tizi|MC
+DZ.TO.TG|Tizi Ghenif|TO
+DZ.SF.TN|Tizi N'Bechar|SF
+DZ.BJ.TN|Tizi-N'Berber|BJ
+DZ.TO.TN|Tizi N'Tleta|TO
+DZ.TO.TO|Tizi Ouzou|TO
+DZ.TO.TR|Tizi Rached|TO
+DZ.BT.TK|T Kout|BT
+DZ.TL.TL|Tlemcen|TL
+DZ.BS.TO|Tolga|BS
+DZ.MG.TO|Touahria|MG
+DZ.BJ.TO|Toudja|BJ
+DZ.OG.TO|Touggourt|OG
+DZ.EB.TO|Tousmouline|EB
+DZ.TR.TO|Tousnina|TR
+DZ.AN.TR|Treat|AN
+DZ.EO.TR|Trifaoui|EO
+DZ.AR.TS|Tsabit|AR
+DZ.KH.YA|Yabous|KH
+DZ.ML.YB|Yahia Beniguecha|ML
+DZ.TO.YK|Yakouren|TO
+DZ.TO.YT|Yatafene|TO
+DZ.RE.YE|Yellel|RE
+DZ.SD.YO|Youb|SD
+DZ.DJ.ZF|Zaafrane|DJ
+DZ.SA.ZA|Zaarouria|SA
+DZ.DJ.ZC|Zaccar|DJ
+DZ.MC.ZA|Zahana|MC
+DZ.BT.ZB|Zanet El Beida|BT
+DZ.OG.ZA|Zaouia El Abidia|OG
+DZ.AR.ZK|Zaouiet Kounta|AR
+DZ.MS.ZA|Zarzour|MS
+DZ.BU.ZB|Zbarbar (El Isseri)|BU
+DZ.CH.ZE|Zeboudja|CH
+DZ.AD.ZE|Zeddine|AD
+DZ.ML.ZE|Zeghaia|ML
+DZ.TO.ZE|Zekri|TO
+DZ.GR.ZE|Zelfana|GR
+DZ.RE.ZM|Zemmoura|RE
+DZ.BM.ZE|Zemmouri|BM
+DZ.TL.ZE|Zenata|TL
+DZ.AL.ZE|Zeralda|AL
+DZ.SK.ZE|Zerdeza|SK
+DZ.BS.ZO|Zeribet El Oued|BS
+DZ.ET.ZE|Zerizer|ET
+DZ.SB.ZE|Zerouala|SB
+DZ.JJ.ZM|Ziama Mansouriah|JJ
+DZ.CO.ZY|Zighoud Youcef|CO
+DZ.ET.ZI|Zitouna|ET
+DZ.SK.ZI|Zitouna|SK
+DZ.TR.ZE|Zmalet El Emir Abdelkader|TR
+DZ.OB.ZO|Zorg|OB
+DZ.SA.ZO|Zouabi|SA
+DZ.MD.ZO|Zoubiria|MD
