@@ -306,6 +306,22 @@ if (wilayaSelect && baladiyaSelect) {
 }
 
 // =====================
+// Offer Cards Logic
+// =====================
+document.querySelectorAll('.offer-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+        document.querySelectorAll('.offer-card').forEach(function(c) { c.classList.remove('active'); });
+        this.classList.add('active');
+        var val = this.getAttribute('data-value');
+        var offerSel = document.getElementById('offer-select');
+        if (offerSel) {
+            offerSel.value = val;
+            offerSel.dispatchEvent(new Event('change'));
+        }
+    });
+});
+
+// =====================
 // Offer & Dynamic Models Logic
 // =====================
 const offerSelect = document.getElementById('offer-select');
@@ -391,8 +407,16 @@ function initVisualSelectors() {
 
         // Sync visual state when select changes
         targetSelect.addEventListener('change', function() {
+            var previewId = container.getAttribute('data-preview');
+            var previewEl = previewId ? document.getElementById(previewId) : null;
             container.querySelectorAll('.v-model-option').forEach(function(el) {
-                el.classList.toggle('selected', el.getAttribute('data-value') === targetSelect.value);
+                var isSelected = el.getAttribute('data-value') === targetSelect.value;
+                el.classList.toggle('selected', isSelected);
+                if (isSelected && previewEl) {
+                    var num = el.querySelector('.v-badge') ? el.querySelector('.v-badge').textContent : '';
+                    previewEl.innerHTML = '<i class="fa-solid fa-check-circle"></i> الموديل ' + num + ' مختار';
+                    previewEl.classList.add('chosen');
+                }
             });
         });
     });

@@ -235,84 +235,113 @@
                         </div>
                     </div>
 
-                    <!-- Offer selector -->
-                    <div class="form-row">
-                        <div class="input-group">
-                            <label>العرض الخاص (الكمية)</label>
-                            <div class="input-wrapper">
-                                <i class="fa-solid fa-tag"></i>
-                                <select id="offer-select" name="offer" required>
-                                    <option value="1" selected>ساعة واحدة - 2300 د.ج</option>
-                                    <option value="2">عرض 2 ساعات - 4300 د.ج</option>
-                                    <option value="3">عرض 3 ساعات - 6500 د.ج</option>
-                                </select>
+                    <!-- Offer selector — beautiful cards -->
+                    <div class="offer-cards-row">
+                        <div class="offer-card active" data-value="1">
+                            <div class="offer-card-icon">⌚</div>
+                            <div class="offer-card-info">
+                                <span class="offer-card-qty">ساعة واحدة</span>
+                                <span class="offer-card-price">2300 <small>د.ج</small></span>
                             </div>
                         </div>
+                        <div class="offer-card" data-value="2">
+                            <div class="offer-card-badge">الأكثر مبيعاً</div>
+                            <div class="offer-card-icon">⌚⌚</div>
+                            <div class="offer-card-info">
+                                <span class="offer-card-qty">ساعتان</span>
+                                <span class="offer-card-price">4300 <small>د.ج</small></span>
+                            </div>
+                        </div>
+                        <div class="offer-card" data-value="3">
+                            <div class="offer-card-icon">⌚⌚⌚</div>
+                            <div class="offer-card-info">
+                                <span class="offer-card-qty">3 ساعات</span>
+                                <span class="offer-card-price">6500 <small>د.ج</small></span>
+                            </div>
+                        </div>
+                        <!-- Hidden select for form submission -->
+                        <select id="offer-select" name="offer" required style="display:none;">
+                            <option value="1" selected>ساعة واحدة - 2300 د.ج</option>
+                            <option value="2">عرض 2 ساعات - 4300 د.ج</option>
+                            <option value="3">عرض 3 ساعات - 6500 د.ج</option>
+                        </select>
                     </div>
 
-                    <!-- Model 1 picker: full width row -->
-                    <div class="form-row" id="model-row-1">
-                        <div class="input-group" id="model-group-1" style="flex: 1 1 100%;">
-                            <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الأول</label>
-                            <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
-                            <div class="input-wrapper">
-                                <select id="model-select-1" class="model-select hidden-select" name="model1" required>
-                                    <option value="" disabled selected>اختر الموديل الأول</option>
-                                    <option value="model1">الموديل 1</option>
-                                    <option value="model2">الموديل 2</option>
-                                    <option value="model3">الموديل 3</option>
-                                    <option value="model5">الموديل 5</option>
-                                    <option value="model6">الموديل 6</option>
-                                    <option value="model8">الموديل 8</option>
-                                    <option value="model9">الموديل 9</option>
-                                    <option value="model10">الموديل 10</option>
-                                </select>
-                                <div class="visual-model-selector" id="visual-selector-1" data-target="model-select-1"></div>
+                    <!-- Model 1 picker -->
+                    <div class="model-picker-section" id="model-group-1">
+                        <div class="model-picker-header">
+                            <span class="model-picker-step">1</span>
+                            <div>
+                                <div class="model-picker-title">اختاري الموديل الأول</div>
+                                <div class="model-picker-hint">انقري على الصورة لاختياره</div>
+                            </div>
+                            <div class="model-selected-preview" id="selected-preview-1">
+                                <i class="fa-regular fa-circle-dot"></i> لم يتم الاختيار بعد
                             </div>
                         </div>
+                        <select id="model-select-1" class="model-select hidden-select" name="model1" required>
+                            <option value="" disabled selected>اختر الموديل الأول</option>
+                            <option value="model1">الموديل 1</option>
+                            <option value="model2">الموديل 2</option>
+                            <option value="model3">الموديل 3</option>
+                            <option value="model5">الموديل 5</option>
+                            <option value="model6">الموديل 6</option>
+                            <option value="model8">الموديل 8</option>
+                            <option value="model9">الموديل 9</option>
+                            <option value="model10">الموديل 10</option>
+                        </select>
+                        <div class="visual-model-selector" id="visual-selector-1" data-target="model-select-1" data-preview="selected-preview-1"></div>
                     </div>
 
                     <!-- Extra models for offer 2 & 3 -->
                     <div id="extra-models-row" style="display:none;">
-                        <div class="form-row" id="model-group-2" style="display: none;">
-                            <div class="input-group" style="flex: 1 1 100%;">
-                                <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الثاني</label>
-                                <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
-                                <div class="input-wrapper">
-                                    <select id="model-select-2" class="model-select hidden-select" name="model2">
-                                        <option value="" disabled selected>اختر الموديل الثاني</option>
-                                        <option value="model1">الموديل 1</option>
-                                        <option value="model2">الموديل 2</option>
-                                        <option value="model3">الموديل 3</option>
-                                        <option value="model5">الموديل 5</option>
-                                        <option value="model6">الموديل 6</option>
-                                        <option value="model8">الموديل 8</option>
-                                        <option value="model9">الموديل 9</option>
-                                        <option value="model10">الموديل 10</option>
-                                    </select>
-                                    <div class="visual-model-selector" id="visual-selector-2" data-target="model-select-2"></div>
+                        <div class="model-picker-section" id="model-group-2" style="display:none;">
+                            <div class="model-picker-header">
+                                <span class="model-picker-step">2</span>
+                                <div>
+                                    <div class="model-picker-title">اختاري الموديل الثاني</div>
+                                    <div class="model-picker-hint">انقري على الصورة لاختياره</div>
+                                </div>
+                                <div class="model-selected-preview" id="selected-preview-2">
+                                    <i class="fa-regular fa-circle-dot"></i> لم يتم الاختيار بعد
                                 </div>
                             </div>
+                            <select id="model-select-2" class="model-select hidden-select" name="model2">
+                                <option value="" disabled selected>اختر الموديل الثاني</option>
+                                <option value="model1">الموديل 1</option>
+                                <option value="model2">الموديل 2</option>
+                                <option value="model3">الموديل 3</option>
+                                <option value="model5">الموديل 5</option>
+                                <option value="model6">الموديل 6</option>
+                                <option value="model8">الموديل 8</option>
+                                <option value="model9">الموديل 9</option>
+                                <option value="model10">الموديل 10</option>
+                            </select>
+                            <div class="visual-model-selector" id="visual-selector-2" data-target="model-select-2" data-preview="selected-preview-2"></div>
                         </div>
-                        <div class="form-row" id="model-group-3" style="display: none;">
-                            <div class="input-group" style="flex: 1 1 100%;">
-                                <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الثالث</label>
-                                <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
-                                <div class="input-wrapper">
-                                    <select id="model-select-3" class="model-select hidden-select" name="model3">
-                                        <option value="" disabled selected>اختر الموديل الثالث</option>
-                                        <option value="model1">الموديل 1</option>
-                                        <option value="model2">الموديل 2</option>
-                                        <option value="model3">الموديل 3</option>
-                                        <option value="model5">الموديل 5</option>
-                                        <option value="model6">الموديل 6</option>
-                                        <option value="model8">الموديل 8</option>
-                                        <option value="model9">الموديل 9</option>
-                                        <option value="model10">الموديل 10</option>
-                                    </select>
-                                    <div class="visual-model-selector" id="visual-selector-3" data-target="model-select-3"></div>
+                        <div class="model-picker-section" id="model-group-3" style="display:none;">
+                            <div class="model-picker-header">
+                                <span class="model-picker-step">3</span>
+                                <div>
+                                    <div class="model-picker-title">اختاري الموديل الثالث</div>
+                                    <div class="model-picker-hint">انقري على الصورة لاختياره</div>
+                                </div>
+                                <div class="model-selected-preview" id="selected-preview-3">
+                                    <i class="fa-regular fa-circle-dot"></i> لم يتم الاختيار بعد
                                 </div>
                             </div>
+                            <select id="model-select-3" class="model-select hidden-select" name="model3">
+                                <option value="" disabled selected>اختر الموديل الثالث</option>
+                                <option value="model1">الموديل 1</option>
+                                <option value="model2">الموديل 2</option>
+                                <option value="model3">الموديل 3</option>
+                                <option value="model5">الموديل 5</option>
+                                <option value="model6">الموديل 6</option>
+                                <option value="model8">الموديل 8</option>
+                                <option value="model9">الموديل 9</option>
+                                <option value="model10">الموديل 10</option>
+                            </select>
+                            <div class="visual-model-selector" id="visual-selector-3" data-target="model-select-3" data-preview="selected-preview-3"></div>
                         </div>
                     </div>
 
