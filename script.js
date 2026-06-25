@@ -36,21 +36,28 @@ if (purchaseForm) {
         params.append('fullname', document.getElementById('fullname').value);
         params.append('phone', document.getElementById('phone').value);
         params.append('wilaya', document.getElementById('wilaya').options[document.getElementById('wilaya').selectedIndex].text);
-        
+
         const baladiyaEl = document.getElementById('baladiya');
         let baladiyaVal = baladiyaEl.value;
         if (baladiyaEl.tagName === 'SELECT' && baladiyaEl.selectedIndex >= 0) {
             baladiyaVal = baladiyaEl.options[baladiyaEl.selectedIndex].text;
         }
         params.append('baladiya', baladiyaVal);
-        
+
         let offerSelectElem = document.getElementById('offer-select');
         let offerText = offerSelectElem ? offerSelectElem.options[offerSelectElem.selectedIndex].text : '';
         params.append('offer', offerText);
-        
+
+        // Collect models — walk ancestor tree to check visibility
         let selectedModels = [];
         document.querySelectorAll('.model-select').forEach((sel) => {
-            if (sel.closest('.input-group').style.display !== 'none' && sel.selectedIndex > 0) {
+            let el = sel.parentElement;
+            let isHidden = false;
+            while (el && el !== document.body) {
+                if (el.style.display === 'none') { isHidden = true; break; }
+                el = el.parentElement;
+            }
+            if (!isHidden && sel.selectedIndex > 0) {
                 selectedModels.push(sel.options[sel.selectedIndex].text);
             }
         });
@@ -120,7 +127,7 @@ document.head.insertAdjacentHTML('beforeend', `
 </style>
 `);
 
-// Model Selection
+// Model Selection — clicking gallery buttons selects model 1
 document.querySelectorAll('.select-model-btn').forEach(btn => {
     btn.addEventListener('click', function (e) {
         e.preventDefault();
@@ -128,6 +135,7 @@ document.querySelectorAll('.select-model-btn').forEach(btn => {
         const select = document.getElementById('model-select-1');
         if (select) {
             select.value = model;
+            select.dispatchEvent(new Event('change'));
         }
 
         // Scroll to order form
@@ -137,16 +145,9 @@ document.querySelectorAll('.select-model-btn').forEach(btn => {
                 behavior: 'smooth',
                 block: 'start'
             });
-            // Optional: highlight the select element briefly
-            select.style.transition = 'box-shadow 0.3s';
-            select.style.boxShadow = '0 0 0 4px rgba(212, 175, 55, 0.4)';
-            setTimeout(() => {
-                select.style.boxShadow = 'none';
-            }, 1500);
         }
     });
 });
-
 
 // =====================
 // Slideshow Logic
@@ -197,10 +198,8 @@ const galleryImages = [
     'photo_5856938776213524504_y.jpg',
     'photo_5856938776213524505_y.jpg',
     'photo_5856938776213524506_y.jpg',
-    'photo_5856938776213524507_y.jpg',
     'photo_5856938776213524508_y.jpg',
     'photo_5856938776213524509_y.jpg',
-    'photo_5856938776213524510_y.jpg',
     'photo_5856938776213524511_y.jpg',
     'photo_5856938776213524512_y.jpg',
     'photo_5856938776213524513_y.jpg'
@@ -316,6 +315,17 @@ const modelGroup3 = document.getElementById('model-group-3');
 const modelSelect2 = document.getElementById('model-select-2');
 const modelSelect3 = document.getElementById('model-select-3');
 
+function resetVisualSelector(selectId, containerId) {
+    var sel = document.getElementById(selectId);
+    var container = document.getElementById(containerId);
+    if (sel) sel.selectedIndex = 0;
+    if (container) {
+        container.querySelectorAll('.v-model-option').forEach(function(el) {
+            el.classList.remove('selected');
+        });
+    }
+}
+
 if (offerSelect) {
     offerSelect.addEventListener('change', function() {
         const val = this.value;
@@ -325,18 +335,71 @@ if (offerSelect) {
             if (modelGroup3) modelGroup3.style.display = 'none';
             if (modelSelect2) modelSelect2.required = false;
             if (modelSelect3) modelSelect3.required = false;
+            resetVisualSelector('model-select-2', 'visual-selector-2');
+            resetVisualSelector('model-select-3', 'visual-selector-3');
         } else if (val === "2") {
-            if (extraModelsRow) extraModelsRow.style.display = 'flex';
+            if (extraModelsRow) extraModelsRow.style.display = 'block';
             if (modelGroup2) modelGroup2.style.display = 'block';
             if (modelGroup3) modelGroup3.style.display = 'none';
             if (modelSelect2) modelSelect2.required = true;
             if (modelSelect3) modelSelect3.required = false;
+            resetVisualSelector('model-select-3', 'visual-selector-3');
         } else if (val === "3") {
-            if (extraModelsRow) extraModelsRow.style.display = 'flex';
+            if (extraModelsRow) extraModelsRow.style.display = 'block';
             if (modelGroup2) modelGroup2.style.display = 'block';
             if (modelGroup3) modelGroup3.style.display = 'block';
             if (modelSelect2) modelSelect2.required = true;
             if (modelSelect3) modelSelect3.required = true;
         }
     });
+}
+
+// =====================
+// Visual Model Selectors
+// =====================
+var modelValues = ['model1','model2','model3','model5','model6','model8','model9','model10'];
+var modelLabels = [1,2,3,5,6,8,9,10];
+
+function initVisualSelectors() {
+    var visualContainers = document.querySelectorAll('.visual-model-selector');
+
+    visualContainers.forEach(function(container) {
+        var targetSelectId = container.getAttribute('data-target');
+        var targetSelect = document.getElementById(targetSelectId);
+        if (!targetSelect) return;
+
+        // Generate thumbnails
+        galleryImages.forEach(function(imgSrc, index) {
+            var modelValue = modelValues[index];
+            var modelNum = modelLabels[index];
+
+            var optDiv = document.createElement('div');
+            optDiv.className = 'v-model-option';
+            optDiv.setAttribute('data-value', modelValue);
+            optDiv.innerHTML =
+                '<img src="' + imgSrc + '" alt="الموديل ' + modelNum + '">' +
+                '<span class="v-badge">' + modelNum + '</span>' +
+                '<div class="v-check"><i class="fa-solid fa-check"></i></div>';
+
+            optDiv.addEventListener('click', function() {
+                targetSelect.value = modelValue;
+                targetSelect.dispatchEvent(new Event('change'));
+            });
+
+            container.appendChild(optDiv);
+        });
+
+        // Sync visual state when select changes
+        targetSelect.addEventListener('change', function() {
+            container.querySelectorAll('.v-model-option').forEach(function(el) {
+                el.classList.toggle('selected', el.getAttribute('data-value') === targetSelect.value);
+            });
+        });
+    });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initVisualSelectors);
+} else {
+    initVisualSelectors();
 }

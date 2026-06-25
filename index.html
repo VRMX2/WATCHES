@@ -235,6 +235,7 @@
                         </div>
                     </div>
 
+                    <!-- Offer selector -->
                     <div class="form-row">
                         <div class="input-group">
                             <label>العرض الخاص (الكمية)</label>
@@ -247,64 +248,70 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="input-group" id="model-group-1">
-                            <label>الموديل الأول</label>
+                    </div>
+
+                    <!-- Model 1 picker: full width row -->
+                    <div class="form-row" id="model-row-1">
+                        <div class="input-group" id="model-group-1" style="flex: 1 1 100%;">
+                            <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الأول</label>
+                            <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
                             <div class="input-wrapper">
-                                <i class="fa-solid fa-gem"></i>
-                                <select id="model-select-1" class="model-select" name="model1" required>
+                                <select id="model-select-1" class="model-select hidden-select" name="model1" required>
                                     <option value="" disabled selected>اختر الموديل الأول</option>
                                     <option value="model1">الموديل 1</option>
                                     <option value="model2">الموديل 2</option>
                                     <option value="model3">الموديل 3</option>
-                                    <option value="model4">الموديل 4</option>
                                     <option value="model5">الموديل 5</option>
                                     <option value="model6">الموديل 6</option>
-                                    <option value="model7">الموديل 7</option>
                                     <option value="model8">الموديل 8</option>
                                     <option value="model9">الموديل 9</option>
                                     <option value="model10">الموديل 10</option>
                                 </select>
+                                <div class="visual-model-selector" id="visual-selector-1" data-target="model-select-1"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="form-row" id="extra-models-row" style="display: none;">
-                        <div class="input-group" id="model-group-2" style="display: none;">
-                            <label>الموديل الثاني</label>
-                            <div class="input-wrapper">
-                                <i class="fa-solid fa-gem"></i>
-                                <select id="model-select-2" class="model-select" name="model2">
-                                    <option value="" disabled selected>اختر الموديل الثاني</option>
-                                    <option value="model1">الموديل 1</option>
-                                    <option value="model2">الموديل 2</option>
-                                    <option value="model3">الموديل 3</option>
-                                    <option value="model4">الموديل 4</option>
-                                    <option value="model5">الموديل 5</option>
-                                    <option value="model6">الموديل 6</option>
-                                    <option value="model7">الموديل 7</option>
-                                    <option value="model8">الموديل 8</option>
-                                    <option value="model9">الموديل 9</option>
-                                    <option value="model10">الموديل 10</option>
-                                </select>
+                    <!-- Extra models for offer 2 & 3 -->
+                    <div id="extra-models-row" style="display:none;">
+                        <div class="form-row" id="model-group-2" style="display: none;">
+                            <div class="input-group" style="flex: 1 1 100%;">
+                                <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الثاني</label>
+                                <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
+                                <div class="input-wrapper">
+                                    <select id="model-select-2" class="model-select hidden-select" name="model2">
+                                        <option value="" disabled selected>اختر الموديل الثاني</option>
+                                        <option value="model1">الموديل 1</option>
+                                        <option value="model2">الموديل 2</option>
+                                        <option value="model3">الموديل 3</option>
+                                        <option value="model5">الموديل 5</option>
+                                        <option value="model6">الموديل 6</option>
+                                        <option value="model8">الموديل 8</option>
+                                        <option value="model9">الموديل 9</option>
+                                        <option value="model10">الموديل 10</option>
+                                    </select>
+                                    <div class="visual-model-selector" id="visual-selector-2" data-target="model-select-2"></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="input-group" id="model-group-3" style="display: none;">
-                            <label>الموديل الثالث</label>
-                            <div class="input-wrapper">
-                                <i class="fa-solid fa-gem"></i>
-                                <select id="model-select-3" class="model-select" name="model3">
-                                    <option value="" disabled selected>اختر الموديل الثالث</option>
-                                    <option value="model1">الموديل 1</option>
-                                    <option value="model2">الموديل 2</option>
-                                    <option value="model3">الموديل 3</option>
-                                    <option value="model4">الموديل 4</option>
-                                    <option value="model5">الموديل 5</option>
-                                    <option value="model6">الموديل 6</option>
-                                    <option value="model7">الموديل 7</option>
-                                    <option value="model8">الموديل 8</option>
-                                    <option value="model9">الموديل 9</option>
-                                    <option value="model10">الموديل 10</option>
-                                </select>
+                        <div class="form-row" id="model-group-3" style="display: none;">
+                            <div class="input-group" style="flex: 1 1 100%;">
+                                <label><i class="fa-solid fa-gem" style="color:var(--gold);margin-left:6px;"></i> اختري موديلك الثالث</label>
+                                <p class="model-picker-label"><i class="fa-regular fa-hand-pointer"></i> انقري على الصورة لاختيار الموديل الذي تريدينه</p>
+                                <div class="input-wrapper">
+                                    <select id="model-select-3" class="model-select hidden-select" name="model3">
+                                        <option value="" disabled selected>اختر الموديل الثالث</option>
+                                        <option value="model1">الموديل 1</option>
+                                        <option value="model2">الموديل 2</option>
+                                        <option value="model3">الموديل 3</option>
+                                        <option value="model5">الموديل 5</option>
+                                        <option value="model6">الموديل 6</option>
+                                        <option value="model8">الموديل 8</option>
+                                        <option value="model9">الموديل 9</option>
+                                        <option value="model10">الموديل 10</option>
+                                    </select>
+                                    <div class="visual-model-selector" id="visual-selector-3" data-target="model-select-3"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -343,11 +350,7 @@
                     <img src="photo_5856938776213524506_y.jpg" alt="الموديل 3" onerror="this.src='https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
                     <button type="button" class="select-model-btn" data-model="model3">اطلب هذا الموديل</button>
                 </div>
-                <div class="model-card">
-                    <div class="model-badge">الموديل 4</div>
-                    <img src="photo_5856938776213524507_y.jpg" alt="الموديل 4" onerror="this.src='https://images.unsplash.com/photo-1587836374828-cb4387df3eb7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
-                    <button type="button" class="select-model-btn" data-model="model4">اطلب هذا الموديل</button>
-                </div>
+
                 <div class="model-card">
                     <div class="model-badge">الموديل 5</div>
                     <img src="photo_5856938776213524508_y.jpg" alt="الموديل 5" onerror="this.src='https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
@@ -358,11 +361,7 @@
                     <img src="photo_5856938776213524509_y.jpg" alt="الموديل 6" onerror="this.src='https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
                     <button type="button" class="select-model-btn" data-model="model6">اطلب هذا الموديل</button>
                 </div>
-                <div class="model-card">
-                    <div class="model-badge">الموديل 7</div>
-                    <img src="photo_5856938776213524510_y.jpg" alt="الموديل 7" onerror="this.src='https://images.unsplash.com/photo-1587836374828-cb4387df3eb7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
-                    <button type="button" class="select-model-btn" data-model="model7">اطلب هذا الموديل</button>
-                </div>
+
                 <div class="model-card">
                     <div class="model-badge">الموديل 8</div>
                     <img src="photo_5856938776213524511_y.jpg" alt="الموديل 8" onerror="this.src='https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80';">
